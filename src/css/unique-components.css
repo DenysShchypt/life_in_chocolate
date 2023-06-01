@@ -75,9 +75,9 @@ background: var(--text-accent-color);
 border-radius: 15px;}
 
 @media only screen and (min-width: 375px) {
-   {
+    .unique-components-front {
     width: 355px;
-  }
+    }
 }
 
 .unique-components-card {
@@ -87,7 +87,7 @@ top: 28px;
 }
 
 .unique-components-text-card {    
-    
+
 position: absolute;
 left: 28px;
 bottom: 28px;
@@ -99,7 +99,7 @@ text-transform: uppercase;
 color: var(--main-text-secondary-color);}
 
 .unique-components-back {
-    
+    display: block;
 }
 
 .unique-components-back-text {
