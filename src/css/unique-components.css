@@ -1,6 +1,6 @@
 .unique-components {
     padding: 72px 0;
-    background-color: #FAFAFA;
+    background-color: var(--main-bg-color);
 }
 
 @media only screen and (min-width: 768px) {
@@ -47,6 +47,7 @@
 
 .unique-components-text {
     margin-bottom: 32px;
+    max-width: 335px;
 
     text-align: center;
 
