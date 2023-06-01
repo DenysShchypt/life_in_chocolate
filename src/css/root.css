@@ -1,2 +1,9 @@
 :root {
+  /* fons */
+  --maim-text: 'Montserrat', sans-serif;
+  /* colors */
+  --main-bg-color: #fafafa;
+  --main-text-primary-color: #111111;
+  --main-text-secondary-color: #ffffff;
+  --text-accent-color: #fd9222;
 }
