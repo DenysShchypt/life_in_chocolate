@@ -1,0 +1,11 @@
+.container {
+  margin: 0 auto;
+}
+@media only screen and (min-width: minwidthpx) {
+  .container {
+  }
+}
+@media only screen and (min-width: minwidthpx) {
+  .container {
+  }
+}
