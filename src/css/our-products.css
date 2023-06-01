@@ -1,0 +1,48 @@
+.our-prodacts-section {
+    min-width: 320px;
+    max-width: 375px;
+}
+
+.title-our-prodacts {
+    
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #111111;
+}
+
+.title-acent-color {
+    color: #FD9222;
+}
+
+.our-products-list {}
+
+
+.our-products-item {}
+
+
+.card-our-prodacts {}
+
+.title-card-our-prodacts {
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    color: #111111;
+}
+
+.text-card-our-prodacts {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.our-prodacts-button {
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    background-color: #FAFAFA;
+    color: rgba(17, 17, 17, 0.7);
+    stroke: 1px rgba(17, 17, 17, 0.1);
+    
+}
