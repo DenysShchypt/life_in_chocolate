@@ -1,3 +1,9 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .unique-components {
     padding: 72px 0;
     background-color: var(--main-bg-color);
@@ -65,42 +71,39 @@
 
 .unique-components-flip {
     position: relative;
+    
     max-width: 335px;
     max-height: 270px;
 }
 
-.unique-components-flip:hover .unique-components-front,
-.unique-components-flip:focus .unique-components-front
+.unique-components-flip:hover > .unique-components-front
      {
         transform: rotateY(180deg);
+        opacity: 0;
     }
 
-.unique-components-flip:hover .unique-components-back,
-.unique-components-flip:focus .unique-components-back {
+.unique-components-flip:hover > .unique-components-back {
         opacity: 1;
         transform: rotateY(0deg);
     }
 
 .unique-components-front {
 display: block;
-padding: 28px;
+opacity: 1;
 
 width: 100%;
-height: 100%;
+
+padding: 28px;
 
 transform: rotateY(0deg);
 transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
-transition-duration: 0.5s;
+transition-duration: 500ms;
 transition-property: transform, opacity;
 
 background: var(--text-accent-color);
-border-radius: 15px;}
-
-@media only screen and (min-width: 375px) {
-    .unique-components-front {
-   
-    }
+border-radius: 15px;
 }
+
 
 .unique-components-card {
     display: block;
@@ -142,11 +145,37 @@ color: var(--main-text-secondary-color);}
 }
 
 .unique-components-back-tittle {
+    margin-bottom: 8px;
+
     font-weight: 600;
     font-size: 18px;
     line-height: 1.22;
     letter-spacing: -0.03em;
     text-transform: uppercase;
+}
+
+.unique-components-btn-list {
+    display: flex;
+    column-gap: 6px;
+    margin-bottom: 14px;
+}
+
+.unique-components-btn {
+    padding: 6px 16px;
+
+    border-radius: 35px;
+    border: 1px solid transparent;
+
+    font-size: 10px;
+    line-height: 1.2;
+    
+    color: var(--main-text-secondary-color);
+    background: var(--text-accent-color);
+}
+
+.secondary {
+    border: 1px solid var(--text-accent-color);
 
     color: var(--main-text-primary-color);
+    background-color: var(--main-bg-color);
 }
