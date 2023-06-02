@@ -2,7 +2,8 @@
     <defs>
         <!-- menu-mobile -->
         <symbol id="menu-mobile" viewBox="0 0 32 32">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 16h24M4 8h24M4 24h24" />
+            <path stroke="#111" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                d="M4 16h24M4 8h24M4 24h24" />
         </symbol>
         <symbol id="xclose" viewBox="0 0 32 32">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
