@@ -25,9 +25,22 @@
     gap: 70px;
   }
 }
-.advantages-item:not(:last-child) {
-  margin-bottom: 20px;
+
+@media only screen and (max-width: 767px) {
+  .advantages-item:not(:last-child) {
+    padding-right: 28px;
+    margin-bottom: 20px;
+  }
+  .advantages-item:last-child {
+    padding-right: 28px;
+  }
 }
+@media only screen and (min-width: 768px) {
+  .advantages-item {
+    width: calc((100%-32px) / 2);
+  }
+}
+
 .advantages-item-picture {
 }
 .advantages-icon {
