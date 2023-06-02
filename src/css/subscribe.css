@@ -148,3 +148,28 @@
   color: #fd9222;
   background-color: #fcf1e0;
 }
+
+/**
+  |============================
+  | modal-subscribe
+  |============================
+*/
+
+.backdrop-subscribe {
+}
+.close-subscribe {
+}
+.icon-close-subscribe {
+}
+.modal-subscribe {
+  width: 311px;
+  height: 350px;
+
+  background-color: #fafafa;
+
+  border-radius: 15px;
+}
+.title-modal-subscribe {
+}
+.input-subscribe {
+}
