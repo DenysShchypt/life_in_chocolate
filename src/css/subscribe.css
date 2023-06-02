@@ -77,13 +77,24 @@
 }
 .container-subscribe {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  row-gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.content-subscribe {
+  max-width: 326px;
+}
+@media only screen and (min-width: 768px) {
+  .content-subscribe {
+    max-width: 467px;
+  }
 }
 
 .title-subscribe {
   font-weight: 600;
+
+  margin-bottom: 24px;
 
   color: #ffffff;
 }
@@ -91,6 +102,9 @@
   .title-subscribe {
     font-size: 24px;
     line-height: 1.17;
+    max-width: 378px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
