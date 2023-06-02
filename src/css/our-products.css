@@ -1,14 +1,9 @@
 .our-prodacts-section {
-    min-width: 320px;
-    max-width: 375px;
+   
 }
 
 .title-our-prodacts {
     
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: -0.03em;
-    color: #111111;
 }
 
 .title-acent-color {
@@ -45,14 +40,13 @@
 }
 
 .our-prodacts-button {
-    height: 94px;
+    
     height: 33px;
     font-size: 14px;
     line-height: 1.2;
     
     background-color: #FAFAFA;
     color: #111111;
-    border: 1px solid #111111;
     border-radius: 100px;
     border: none;
 }
