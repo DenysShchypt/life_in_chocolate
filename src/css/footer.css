@@ -89,7 +89,6 @@
 
 .footer-adr-link {
     font-style: normal;
-    font-weight: 400;
 
     color: var(--main-text-secondary-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -100,15 +99,20 @@
     color: var(--text-accent-color);
 }
 
-.footer-socials {
+.footer-socials-list {
     display: flex;
+    align-items: flex-start;
     gap: 14px;
 }
 
 @media only screen and (min-width: 768px) {
-    .footer-socials {
+    .footer-socials-list {
         gap: 18px;
     }
+}
+
+.footer-socials-link {
+    display: block;
 }
 
 .footer-socials-icon {
