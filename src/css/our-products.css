@@ -15,10 +15,17 @@
     color: #FD9222;
 }
 
-.our-products-list {}
+.our-products-list {
+    display: flex;
+        justify-content: center;
+        gap: 18px;
+        
+}
 
 
-.our-products-item {}
+.our-products-item {
+    flex-basis: calc((100% - 126px) / 8);
+}
 
 
 .card-our-prodacts {}
