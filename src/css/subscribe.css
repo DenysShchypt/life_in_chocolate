@@ -109,8 +109,6 @@
 }
 
 .text-subscribe {
-  font-weight: 400;
-
   text-align: center;
 
   color: #ffffff;
@@ -121,8 +119,6 @@
   }
 }
 .button-subsribe {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.21;
@@ -134,7 +130,6 @@
   background: #fd9222;
 
   border-radius: 100px;
-  cursor: pointer;
   border: none;
 
   transition-property: background-color;
