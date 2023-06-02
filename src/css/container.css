@@ -1,7 +1,18 @@
+/* container */
+
 .container {
-  max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
