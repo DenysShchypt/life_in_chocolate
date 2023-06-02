@@ -1,0 +1,85 @@
+
+/* hidden title */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* Basic */
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .container {
+        width: 375px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding: 0 32px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
+.hero-container {
+    background: yellow
+    ;
+}
+
+.hero {}
+
+.container {
+
+}
+@media only screen and (min-width: 375px) {
+.container{
+    max-width: 335px;
+  }
+}
+@media only screen and (min-width: 768px) {
+   {
+    max-width: 704px;
+  }
+}
+
+.hero-container {}
+
+.hero-container-box {}
+
+.hero-title {}
+
+.list {}
+
+.hero-list {}
+
+.hero-btn-modal {}
+
+.hero-btn-anchor {}
+
+.link {}
+
+.hero-btn-scroll {}
+
+.hero-scroll {}
