@@ -38,11 +38,14 @@
 }
 
 .our-prodacts-button {
+    height: 94px;
+    height: 33px;
     font-size: 14px;
     line-height: 1.2;
-    letter-spacing: -0.02em;
-    background-color: #FAFAFA;
-    color: rgba(17, 17, 17, 0.7);
-    stroke: 1px rgba(17, 17, 17, 0.1);
     
+    background-color: #FAFAFA;
+    color: #111111;
+    border: 1px solid #111111;
+    border-radius: 100px;
+    border: none;
 }
