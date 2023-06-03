@@ -1,0 +1,25 @@
+.backdrop-explore {
+  position: fixed;
+  top: 50%;
+  right: 50%;
+
+  width: 100px;
+  height: auto;
+  background-color: teal;
+}
+.close-explore {
+}
+.icon-close-explore {
+}
+.modal-explore {
+  /* width: 311px;
+  height: 350px;
+
+  background-color: #fafafa;
+
+  border-radius: 15px; */
+}
+.title-modal-explore {
+}
+.input-explore {
+}
