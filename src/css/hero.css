@@ -13,73 +13,84 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-/* Basic */
-.container {
-    padding: 0 20px;
-    margin: 0 auto;
-}
-
-@media only screen and (max-width: 375px) {
-    .container {
-        max-width: 375px;
-    }
-}
-
-@media only screen and (min-width: 375px) {
-    .container {
-        width: 375px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-        padding: 0 32px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .container {
-        width: 1200px;
-    }
-}
-.hero-container {
-    background: yellow
-    ;
-}
 
 .hero {}
 
 .container {
-
+    padding-bottom: 20px;
 }
-@media only screen and (min-width: 375px) {
-.container{
-    max-width: 335px;
-  }
+.hero-container {
+    display: flex;
+    align-items: flex-end;
+    height: 620px;
+    background-image: url(../img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xmob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+
+
+.hero-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+
+    color: var(--main-text-secondary-color);
 }
 @media only screen and (min-width: 768px) {
-   {
-    max-width: 704px;
+.hero-title{
+    font-size: 28px;
+    line-height: 1.21;
   }
 }
-
-.hero-container {}
-
-.hero-container-box {}
-
-.hero-title {}
 
 .list {}
 
-.hero-list {}
+.hero-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    column-gap: 14px;
+    margin-top: 32px;
+}
 
-.hero-btn-modal {}
+.hero-btn-modal {
+    width: 120px;
+    height: 41px;
 
-.hero-btn-anchor {}
+    color: var(--main-text-secondary-color);
+    font-weight: 600;
+    line-height: 1.21;
+    background: var(--text-accent-color);
+    border: none;
+    border-radius: 100px;
+}
 
-.link {}
+.hero-btn-anchor {
+    width: 159px;
+    height: 41px;
+    border: 1px solid var(--main-text-secondary-color);
+    border-radius: 100px;
+    background: transparent;
+}
+.hero-anchor-link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    
+    color: var(--main-text-secondary-color);
 
-.hero-btn-scroll {}
+}
 
-.hero-scroll {}
+.hero-btn-scroll {
+    width: 107px;
+    height: 28px;
+    background: transparent;
+}
+
+.hero-scroll {
+    background: wheat;
+}
