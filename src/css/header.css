@@ -1,0 +1,140 @@
+.header-main {
+    padding: 20px 20px 14px;
+}
+
+ @media only screen and (min-width: 758px){
+    .header-main {
+        padding: 24px 32px;
+    }
+}
+
+ @media only screen and (min-width: 1200px){
+    .header-main {
+        padding: 24px 32px 32px 32px;
+    }
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav-container{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.social-list {
+    margin-right: 33px;
+}
+
+.header-menu-nav{  
+    display: none;
+}
+
+@media only screen and (min-width: 1200px){
+    .header-menu-nav{
+        display: flex;  
+        gap: 24px;
+        align-items: center;
+    }
+}
+
+.header-menu-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.94;
+    letter-spacing: -0.02em;
+    justify-content: space-between;
+}
+
+.header-menu-link {
+    color: var(--main-text-primary-color);
+    transition: color 250ms var(--main-cubik);
+}
+
+.header-menu-link:hover {
+    color: var(--text-accent-color);
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-icon {
+    width: 21px; 
+    height: 21px;
+}
+
+@media only screen and (min-width: 1200px){
+    .header-logo-icon {
+        width: 24px; 
+        height: 24px;
+    }
+}
+
+.header-logo-text {
+    font-size: 14px;
+    margin-right: 6px;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+    color: var(--main-text-primary-color);
+}
+
+@media only screen and (min-width: 1200px){
+    .header-logo-text {
+        font-size: 18px;
+        line-height: 0.91;
+    }
+}
+
+.header-social-list {
+    display: none;
+}
+
+@media only screen and (min-width: 1200px){
+    .header-social-list {
+        display: flex;
+        justify-content: end;
+        gap: 21px;
+        width: 163px;
+    }
+}
+
+.header-social-icons {
+    stroke: #111111;
+    fill: none;
+    transition: stroke 250ms var(--main-cubik);
+}
+
+.header-social-icons:hover {
+    stroke: var(--text-accent-color);
+}
+
+.menu-toggle {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.burger-icon {
+    width: 28px;
+    height: 28px;
+    stroke-width: 2.5;
+}
+
+@media only screen and (min-width: 768px) {
+    .burger-icon {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .menu-toggle{
+        display: none;
+    }
+}
