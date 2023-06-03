@@ -8,8 +8,21 @@
   background-color: teal;
 }
 .close-explore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+
+  top: 14px;
+  right: 15px;
+
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
 }
 .icon-close-explore {
+  width: 24px;
+  height: 24px;
+  stroke: #ffffff;
 }
 .modal-explore {
   position: absolute;
@@ -20,11 +33,56 @@
   height: 350px;
 
   background-color: #fafafa;
-  background-image: url(../img/);
 
   border-radius: 15px;
 }
+.bg-image {
+  position: relative;
+  width: 311px;
+  height: 169px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/explore-modal/modal-mob_@1x.jpg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.submit-explore {
+  margin-top: 32px;
+  padding: 0 24px 32px 24px;
+}
 .title-modal-explore {
+  text-align: left;
+  margin-bottom: 24px;
+}
+.new-chokolad {
+  color: #fd9222;
 }
 .input-explore {
+  position: relative;
+  width: 263px;
+  height: 45px;
+
+  padding: 14px 18px;
+
+  border-radius: 100px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+
+  filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+}
+.btm-submit-explore {
+  position: absolute;
+  right: 24px;
+  border-radius: 100px;
+  height: 45px;
+  padding: 14px 22px;
+
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #fd9222;
+
+  border: none;
+}
+.btm-submit-explore::placeholder {
+  color: rgba(64, 64, 64, 0.3);
 }
