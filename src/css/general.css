@@ -1,2 +1,40 @@
 body {
+  font-family: var(--maim-text);
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  background: var(--main-bg-color);
+  color: var(--main-text-primary-color);
+}
+.title {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 24px;
+    line-height: 1.17;
+  }
+}
+
+.btn {
+  padding: 12px 28px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+  .btn {
+    padding: 14px 40px;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
