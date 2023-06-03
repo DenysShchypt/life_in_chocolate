@@ -1,34 +1,74 @@
-<section class="top-sellers-section">
+<section class="top-sellers-section" id="sellers">
   <div class="top-sellers-container container">
     <h2 class="top-sellers-title title">
-      <span class="top-sellers-title-orange">TOP </span> SELLERS
+      <span class="top-sellers-title-orange">TOP </span>SELLERS
     </h2>
-
     <ul class="top-sellers-list list">
       <!-- Photo 1 -->
       <li class="top-sellers-item">
         <picture>
-          <img
-            class="top-sellers-img img"
+          <!-- Desktop -->
+          <source
+            media="(min-width: 1200px)"
             srcset="
-              ./img/top-sellers/img01mob@1x.webp  335w,
-              ./img/top-sellers/img01tabl@1x.webp 344w,
               ./img/top-sellers/img01desk@1x.webp 368w,
-              ./img/top-sellers/img01mob@2x.webp  670w,
-              ./img/top-sellers/img01tabl@2x.webp 688w,
               ./img/top-sellers/img01desk@2x.webp 736w
             "
+            sizes="(min-width: 1200px) 368px"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1200px)"
             srcset="
-              ./img/top-sellers/img01mob@1x.jpg  335w,
-              ./img/top-sellers/img01tabl@1x.jpg 344w,
               ./img/top-sellers/img01desk@1x.jpg 368w,
-              ./img/top-sellers/img01mob@2x.jpg  670w,
-              ./img/top-sellers/img01tabl@2x.jpg 688w,
               ./img/top-sellers/img01desk@2x.jpg 736w
             "
-            sizes="(min-width: 1200px) 368px, (min-width: 768px) 344px, (min-width: 375px) 335px, 100vw"
+            sizes="(min-width: 1200px) 368px"
+            type="image/jpg"
+          />
+          <!-- Tablet -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/top-sellers/img01tabl@1x.webp 344w,
+              ./img/top-sellers/img01tabl@2x.webp 688w
+            "
+            sizes="(min-width: 768px) 344px"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/top-sellers/img01tabl@1x.jpg 344w,
+              ./img/top-sellers/img01tabl@2x.jpg 688w
+            "
+            sizes="(min-width: 768px) 344px"
+            type="image/jpg"
+          />
+          <!-- Mobile -->
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/top-sellers/img01mob@1x.webp 335w,
+              ./img/top-sellers/img01mob@2x.webp 670w
+            "
+            sizes="(min-width: 375px) 335px"
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/top-sellers/img01mob@1x.jpg 335w,
+              ./img/top-sellers/img01mob@2x.jpg 670w
+            "
+            sizes="(min-width: 375px) 335px"
+            type="image/jpg"
+          />
+          <img
+            sizes="(min-width: 375px) 335px, 100vw"
+            class="top-sellers-img img"
             src="./img/top-sellers/img01desk@1x.jpg"
-            alt="Extreme barber Alan Black"
+            alt="Chocolate with coffee and nut"
             widht="368"
             height="346"
             loading="lazy"
@@ -46,27 +86,68 @@
       <!-- Photo 2 -->
       <li class="top-sellers-item">
         <picture>
-          <img
-            class="top-sellers-img img"
+          <!-- Desktop -->
+          <source
+            media="(min-width: 1200px)"
             srcset="
-              ./img/top-sellers/img02mob@1x.webp  335w,
-              ./img/top-sellers/img02tabl@1x.webp 344w,
               ./img/top-sellers/img02desk@1x.webp 368w,
-              ./img/top-sellers/img02mob@2x.webp  670w,
-              ./img/top-sellers/img02tabl@2x.webp 688w,
               ./img/top-sellers/img02desk@2x.webp 736w
             "
+            sizes="(min-width: 1200px) 368px"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1200px)"
             srcset="
-              ./img/top-sellers/img02mob@1x.jpg  335w,
-              ./img/top-sellers/img02tabl@1x.jpg 344w,
               ./img/top-sellers/img02desk@1x.jpg 368w,
-              ./img/top-sellers/img02mob@2x.jpg  670w,
-              ./img/top-sellers/img02tabl@2x.jpg 688w,
               ./img/top-sellers/img02desk@2x.jpg 736w
             "
-            sizes="(min-width: 1200px) 368px, (min-width: 768px) 344px, (min-width: 375px) 335px, 100vw"
+            sizes="(min-width: 1200px) 368px"
+            type="image/jpg"
+          />
+          <!-- Tablet -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/top-sellers/img02tabl@1x.webp 344w,
+              ./img/top-sellers/img02tabl@2x.webp 688w
+            "
+            sizes="(min-width: 768px) 344px"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/top-sellers/img02tabl@1x.jpg 344w,
+              ./img/top-sellers/img02tabl@2x.jpg 688w
+            "
+            sizes="(min-width: 768px) 344px"
+            type="image/jpg"
+          />
+          <!-- Mobile -->
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/top-sellers/img02mob@1x.webp 335w,
+              ./img/top-sellers/img02mob@2x.webp 670w
+            "
+            sizes="(min-width: 375px) 335px"
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/top-sellers/img02mob@1x.jpg 335w,
+              ./img/top-sellers/img02mob@2x.jpg 670w
+            "
+            sizes="(min-width: 375px) 335px"
+            type="image/jpg"
+          />
+          <img
+            sizes="(min-width: 375px) 335px, 100vw"
+            class="top-sellers-img img"
             src="./img/top-sellers/img02desk@1x.jpg"
-            alt="Extreme barber Alan Black"
+            alt="Milk chocolate with mint"
             widht="368"
             height="346"
             loading="lazy"
@@ -76,27 +157,30 @@
       <!-- Photo 3 -->
       <li class="top-sellers-item">
         <picture>
-          <img
-            class="top-sellers-img img"
+          <!-- Desktop -->
+          <source
+            media="(min-width: 1200px)"
             srcset="
-              ./img/top-sellers/img03mob@1x.webp  335w,
-              ./img/top-sellers/img03tabl@1x.webp 344w,
               ./img/top-sellers/img03desk@1x.webp 368w,
-              ./img/top-sellers/img03mob@2x.webp  670w,
-              ./img/top-sellers/img03tabl@2x.webp 688w,
               ./img/top-sellers/img03desk@2x.webp 736w
             "
+            sizes="(min-width: 1200px) 368px"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1200px)"
             srcset="
-              ./img/top-sellers/img03mob@1x.jpg  335w,
-              ./img/top-sellers/img03tabl@1x.jpg 344w,
               ./img/top-sellers/img03desk@1x.jpg 368w,
-              ./img/top-sellers/img03mob@2x.jpg  670w,
-              ./img/top-sellers/img03tabl@2x.jpg 688w,
               ./img/top-sellers/img03desk@2x.jpg 736w
             "
-            sizes="(min-width: 1200px) 368px, (min-width: 768px) 344px, (min-width: 375px) 335px, 100vw"
+            sizes="(min-width: 1200px) 368px"
+            type="image/jpg"
+          />
+          <img
+            sizes="(min-width: 1200px) 368w, 100vw"
+            class="top-sellers-img img"
             src="./img/top-sellers/img03desk@1x.jpg"
-            alt="Extreme barber Alan Black"
+            alt="Chocolate with candy"
             widht="368"
             height="346"
             loading="lazy"
@@ -106,7 +190,9 @@
 
       <!-- Button -->
       <li class="top-sellers-item">
-        <button class="top-sellers-btn btn" type="button">Buy now</button>
+        <button class="top-sellers-btn btn" type="button" data-modal-open>
+          Buy now
+        </button>
       </li>
     </ul>
   </div>
