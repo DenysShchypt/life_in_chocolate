@@ -21,7 +21,7 @@ body {
 }
 
 .btn {
-  padding: 12px 0;
+  padding: 12px 28px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -29,7 +29,7 @@ body {
 }
 @media only screen and (min-width: 768px) {
   .btn {
-    padding: 14px 0;
+    padding: 14px 40px;
   }
 }
 
