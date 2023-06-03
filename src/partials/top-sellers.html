@@ -5,163 +5,37 @@
     </h2>
 
     <ul class="top-sellers-list list">
+      <!-- Photo 1 -->
       <li class="top-sellers-item">
         <picture>
-          <!-- Desktop -->
-          <source
-            media="(min-width: 1200px)"
-            srcset="
-              ./img/top-sellers/img01desk@1x.webp 1x,
-              ./img/top-sellers/img01desk@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 1200px)"
-            srcset="
-              ./img/top-sellers/img01desk@1x.jpg 1x,
-              ./img/top-sellers/img01desk@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <!-- Tablet -->
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              ./img/top-sellers/img01tabl@1x.webp 1x,
-              ./img/top-sellers/img01tabl@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              ./img/top-sellers/img01tabl@1x.jpg 1x,
-              ./img/top-sellers/img01tabl@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <!-- Mobile -->
-          <source
-            media="(max-width: 767px)"
-            srcset="
-              ./img/top-sellers/img01mob@1x.webp 1x,
-              ./img/top-sellers/img01mob@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(max-width: 767px)"
-            srcset="
-              ./img/top-sellers/img01mob@1x.jpg 1x,
-              ./img/top-sellers/img01mob@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
           <img
             class="top-sellers-img img"
-            src="./img/top-sellers/img01mob@1x.jpg"
-            alt=""
-            width="335"
-            height="464"
+            srcset="
+              ./img/top-sellers/img01mob@1x.webp  335w,
+              ./img/top-sellers/img01tabl@1x.webp 344w,
+              ./img/top-sellers/img01desk@1x.webp 368w,
+              ./img/top-sellers/img01mob@2x.webp  670w,
+              ./img/top-sellers/img01tabl@2x.webp 688w,
+              ./img/top-sellers/img01desk@2x.webp 736w
+            "
+            srcset="
+              ./img/top-sellers/img01mob@1x.jpg  335w,
+              ./img/top-sellers/img01tabl@1x.jpg 344w,
+              ./img/top-sellers/img01desk@1x.jpg 368w,
+              ./img/top-sellers/img01mob@2x.jpg  670w,
+              ./img/top-sellers/img01tabl@2x.jpg 688w,
+              ./img/top-sellers/img01desk@2x.jpg 736w
+            "
+            sizes="(min-width: 1200px) 368px, (min-width: 768px) 344px, (min-width: 375px) 335px, 100vw"
+            src="./img/top-sellers/img01desk@1x.jpg"
+            alt="Extreme barber Alan Black"
+            widht="368"
+            height="346"
             loading="lazy"
           />
         </picture>
       </li>
-
-      <li class="top-sellers-item">
-        <picture>
-          <!-- Desktop -->
-          <source
-            media="(min-width: 1200px)"
-            srcset="
-              ./img/top-sellers/img02desk@1x.webp 1x,
-              ./img/top-sellers/img02desk@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 1200px)"
-            srcset="
-              ./img/top-sellers/img02desk@1x.jpg 1x,
-              ./img/top-sellers/img02desk@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <!-- Tablet -->
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              ./img/top-sellers/img02tabl@1x.webp 1x,
-              ./img/top-sellers/img02tabl@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              ./img/top-sellers/img02tabl@1x.jpg 1x,
-              ./img/top-sellers/img02tabl@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <!-- Mobile -->
-          <source
-            media="(max-width: 767px)"
-            srcset="
-              ./img/top-sellers/img02mob@1x.webp 1x,
-              ./img/top-sellers/img02mob@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(max-width: 767px)"
-            srcset="
-              ./img/top-sellers/img02mob@1x.jpg 1x,
-              ./img/top-sellers/img02mob@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <img
-            class="top-sellers-img img"
-            src="./img/top-sellers/img02mob@1x.jpg"
-            alt=""
-            width="335"
-            height="464"
-            loading="lazy"
-          />
-        </picture>
-      </li>
-
-      <li class="top-sellers-item">
-        <picture>
-          <!-- Desktop -->
-          <source
-            media="(min-width: 1200px)"
-            srcset="
-              ./img/top-sellers/img03desk@1x.webp 1x,
-              ./img/top-sellers/img03desk@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 1200px)"
-            srcset="
-              ./img/top-sellers/img03desk@1x.jpg 1x,
-              ./img/top-sellers/img03desk@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <img
-            class="top-sellers-img img"
-            src="./img/top-sellers/img03desk@1x.jpg"
-            alt=""
-            width="335"
-            height="464"
-            loading="lazy"
-          />
-        </picture>
-      </li>
+      <!-- Desc -->
       <li class="top-sellers-item">
         <p class="top-sellers-desc">
           Crazy enough chocolate originates from a bean just like the coffee
@@ -169,6 +43,68 @@
           was first discovered by the Native American tribe called the Mayans.
         </p>
       </li>
+      <!-- Photo 2 -->
+      <li class="top-sellers-item">
+        <picture>
+          <img
+            class="top-sellers-img img"
+            srcset="
+              ./img/top-sellers/img02mob@1x.webp  335w,
+              ./img/top-sellers/img02tabl@1x.webp 344w,
+              ./img/top-sellers/img02desk@1x.webp 368w,
+              ./img/top-sellers/img02mob@2x.webp  670w,
+              ./img/top-sellers/img02tabl@2x.webp 688w,
+              ./img/top-sellers/img02desk@2x.webp 736w
+            "
+            srcset="
+              ./img/top-sellers/img02mob@1x.jpg  335w,
+              ./img/top-sellers/img02tabl@1x.jpg 344w,
+              ./img/top-sellers/img02desk@1x.jpg 368w,
+              ./img/top-sellers/img02mob@2x.jpg  670w,
+              ./img/top-sellers/img02tabl@2x.jpg 688w,
+              ./img/top-sellers/img02desk@2x.jpg 736w
+            "
+            sizes="(min-width: 1200px) 368px, (min-width: 768px) 344px, (min-width: 375px) 335px, 100vw"
+            src="./img/top-sellers/img02desk@1x.jpg"
+            alt="Extreme barber Alan Black"
+            widht="368"
+            height="346"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <!-- Photo 3 -->
+      <li class="top-sellers-item">
+        <picture>
+          <img
+            class="top-sellers-img img"
+            srcset="
+              ./img/top-sellers/img03mob@1x.webp  335w,
+              ./img/top-sellers/img03tabl@1x.webp 344w,
+              ./img/top-sellers/img03desk@1x.webp 368w,
+              ./img/top-sellers/img03mob@2x.webp  670w,
+              ./img/top-sellers/img03tabl@2x.webp 688w,
+              ./img/top-sellers/img03desk@2x.webp 736w
+            "
+            srcset="
+              ./img/top-sellers/img03mob@1x.jpg  335w,
+              ./img/top-sellers/img03tabl@1x.jpg 344w,
+              ./img/top-sellers/img03desk@1x.jpg 368w,
+              ./img/top-sellers/img03mob@2x.jpg  670w,
+              ./img/top-sellers/img03tabl@2x.jpg 688w,
+              ./img/top-sellers/img03desk@2x.jpg 736w
+            "
+            sizes="(min-width: 1200px) 368px, (min-width: 768px) 344px, (min-width: 375px) 335px, 100vw"
+            src="./img/top-sellers/img03desk@1x.jpg"
+            alt="Extreme barber Alan Black"
+            widht="368"
+            height="346"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+
+      <!-- Button -->
       <li class="top-sellers-item">
         <button class="top-sellers-btn btn" type="button">Buy now</button>
       </li>
