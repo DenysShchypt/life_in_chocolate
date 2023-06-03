@@ -1,10 +1,10 @@
 .backdrop-explore {
   position: fixed;
-  top: 50%;
-  right: 50%;
+  top: 0;
+  left: 0;
 
-  width: 100px;
-  height: auto;
+  width: 100%;
+  height: 100%;
   background-color: teal;
 }
 .close-explore {
@@ -12,12 +12,17 @@
 .icon-close-explore {
 }
 .modal-explore {
-  /* width: 311px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 311px;
   height: 350px;
 
   background-color: #fafafa;
+  background-image: url(../img/);
 
-  border-radius: 15px; */
+  border-radius: 15px;
 }
 .title-modal-explore {
 }
