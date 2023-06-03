@@ -1,9 +1,25 @@
 .our-prodacts-section {
-   
+   max-height: 453px;
 }
+
+@media only screen and (min-width: 768px) {
+        .our-prodacts-section {
+            width: 1136px;
+        }
+    }
+
 
 .title-our-prodacts {
     margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) { 
+    .title-our-prodacts {
+        font-size: 24px;
+        line-height: 1.17;
+    }
 }
 
 .title-acent-color {
@@ -26,9 +42,10 @@
 }
 
 .title-card-our-prodacts {
+    font-weight: 600;
     margin-top: 8px;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.33;
     letter-spacing: -0.02em;
     color: #111111;
 }
@@ -42,16 +59,18 @@
 }
 
 .our-prodacts-button {
+    width: 94px;
+    height: 33px;
     margin-bottom: 0;
     margin-top: 18px;
-    height: 33px;
+    
+    font-weight: 600;
     font-size: 14px;
     line-height: 1.2;
     
-    background-color: #FAFAFA;
-    color: #111111;
+    background: #FAFAFA;
+    border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 100px;
-    border: none;
 }
 
 .swiper {
@@ -60,10 +79,21 @@
 }
 
 .swiper-slide {
-    max-width: 100%;
     text-align: center;
 }
 
-.our-prodacts-img {
-   
+.img-products {
+    margin-left: auto;
+   margin-right: auto;
+}
+
+.swiper-pagination {
+  position: static; 
+}
+
+.swiper-pagination-bullet-active {
+width: 28px;
+height: 13px;
+background: #FD9222;
+
 }
