@@ -1,11 +1,22 @@
-.section {
-}
 .reviews-section {
+  padding: 36px 0;
 }
 
 .reviews-title {
+  margin-bottom: 32px;
+
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--main-text-primary-color);
 }
 .action-reviews-title {
+  color: var(--text-accent-color);
 }
 .swiper {
 }
@@ -13,14 +24,11 @@
 }
 .reviews-list {
 }
-.list {
-}
 .swiper-slide {
 }
 .reviews-item {
 }
-.review-photo-thumb {
-}
+
 .review-photo {
 }
 .review-data {
@@ -30,6 +38,19 @@
 .review-desc {
 }
 .swiper-pagination {
+  position: static;
+}
+.swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+}
+.swiper-pagination-bullet-active {
+  width: 28px;
+  height: 13px;
+
+  border-radius: 13px;
+
+  background-color: var(--text-accent-color);
 }
 .review-button {
 }
