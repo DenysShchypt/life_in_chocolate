@@ -114,6 +114,11 @@
     width: 22px;
     height: 22px;
     display: block;
+
+    fill: var(--main-secondary-bg-color);
+    color: var(--main-text-secondary-color);
+
+    transition: color 250ms var(--main-cubik);
 }
 
 @media only screen and (min-width: 768px) {
@@ -123,17 +128,34 @@
     }
 }
 
-.footer-socials-link:hover .footer-socials-icon,
-.footer-socials-link:focus .footer-socials-icon {
-    stroke: var(--text-accent-color);
+.footer-socials-link:hover,
+.footer-socials-link:focus {
+    color: var(--text-accent-color);
 }
 
 .footer-socials-icon {
     width: 100%;
     height: 100%;
 
-    stroke: var(--main-text-secondary-color);
-    transition: stroke 250ms var(--main-cubik);
+    stroke: currentColor;
+}
+
+.footer-use-mobile {
+    opacity: 1;
+}
+
+.footer-use-tablet {
+    opacity: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-use-mobile {
+        opacity: 0;
+    }
+
+    .footer-use-tablet {
+        opacity: 1;
+    }
 }
 
 @media only screen and (min-width: 768px) {
