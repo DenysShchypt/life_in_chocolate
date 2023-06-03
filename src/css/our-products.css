@@ -2,25 +2,33 @@
    max-height: 453px;
 }
 
-@media only screen and (min-width: 768px) {
-        .our-prodacts-section {
-            width: 1136px;
-        }
-    }
-
-
-.title-our-prodacts {
+.title {
     margin-bottom: 32px;
-    font-weight: 600;
-    font-size: 16px;
 }
 
-@media only screen and (min-width: 768px) { 
-    .title-our-prodacts {
+    @media only screen and (min-width: 768px) {
+    .title {
+        margin-bottom: 50px; }
+}
+
+/*@media only screen and (max-width: 319px) {
+.title {
+    font-weight: 600;
+    font-size: 16px;
+    }
+}
+
+.title {
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .title {
+        margin-bottom: 50px;
         font-size: 24px;
         line-height: 1.17;
     }
-}
+} */
 
 .title-acent-color {
     color: #FD9222;
