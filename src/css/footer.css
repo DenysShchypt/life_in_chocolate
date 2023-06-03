@@ -7,9 +7,8 @@
     padding-top: 32px;
     padding-bottom: 32px;
 
-    background-color: #1E1823;
-    /* background-color: var(--main-secondary-bg-color); */
     color: var(--main-text-secondary-color);
+    background-color: var(--main-secondary-bg-color);
 }
 
 @media only screen and (min-width: 768px) {
