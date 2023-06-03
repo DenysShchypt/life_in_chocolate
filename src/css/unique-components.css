@@ -80,14 +80,25 @@ img {
 .unique-components-list {
     flex-wrap: wrap;
     flex-direction: row;
-    row-gap: 32px;
-column-gap: 32px;}}   
+    gap: 32px;}}   
 
 @media only screen and (min-width: 1200px) {
 .unique-components-list {
     flex-wrap: nowrap;
     column-gap: 19px;
   }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .unique-components-item:nth-child(2) {
+    order: 2;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .unique-components-item:nth-child(3) {
+        order: 3;
+    }
 }
 
 .unique-components-flip {
