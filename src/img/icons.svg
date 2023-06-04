@@ -77,7 +77,8 @@
         </symbol>
         <!-- How its made section -->
         <symbol id="play-btn" viewBox="0 0 32 32">
-<path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 29c-7.18 0-13-5.82-13-13s5.82-13 13-13 13 5.82 13 13-5.82 13-13 13zM12 9l12 7-12 7z"></path>
-</symbol>
+            <path fill="#f5f4f4" style="fill: var(--color1, #f5f4f4)" d="M11.886 23.771v-13.714l12.8 6.857-12.8 6.857z"></path>
+            <path fill="none" stroke="#fff" style="stroke: var(--color2, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.9143" d="M31.543 16c0 8.584-6.959 15.543-15.543 15.543s-15.543-6.959-15.543-15.543c0-8.584 6.959-15.543 15.543-15.543s15.543 6.959 15.543 15.543z"></path>
+        </symbol>
     </defs>
 </svg>
