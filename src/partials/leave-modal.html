@@ -5,8 +5,9 @@
     </svg>
   </button>
   <h2 class="review-modal-title">
-    Leave a review about
-    <span class="review-modal-action-text">our chocolate</span>
+    Leave a review <br class="review-modal-title-br" />
+    about
+    <span class="review-modal-action-text"> our chocolate</span>
   </h2>
   <form class="review-modal-form">
     <input
@@ -14,7 +15,6 @@
       type="text"
       class="review-input"
       placeholder="Name"
-      pattern="[A-Za-z0-9]"
       required
     />
     <input
@@ -35,10 +35,10 @@
         required
       />
       <div class="review-country-code">
-        <svg class="countru-flag" width="24" height="24">
+        <svg class="review-country-flag">
           <use href="./img/icons.svg#ukraine-flag"></use>
         </svg>
-        <span>+380</span>
+        <span class="review-code-text">+380</span>
       </div>
     </div>
     <textarea name="review-comment" class="review-comment" required></textarea>
