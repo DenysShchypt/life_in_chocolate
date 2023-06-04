@@ -1,7 +1,8 @@
-const reviewSwiper = new Swiper('.reviews-swiper',{
+const swiper = new Swiper('.swiper',{
     loop: true,
     direction: 'horizontal',
-   
+
+    freeMode: true,
 
    initialSlide: 0,
    
@@ -9,20 +10,18 @@ const reviewSwiper = new Swiper('.reviews-swiper',{
     breakpoints:{
         768:{
             slidesPerView: 2,
-            spaceBetween: 16,
         },
         1200:{
             slidesPerView: 3,
-            spaceBetween: 28,
         },
     },
 
     pagination: {
-        el: '.reviews-swiper-pagination',
+        el: '.swiper-pagination',
         
 
     },
     mousewheel:{
-        sensitivity: 0.4,
+        sensivity: 1,
     },
 })
