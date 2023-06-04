@@ -91,6 +91,25 @@
   letter-spacing: -0.02em;
 }
 
+.how-made-item {
+  position: relative;
+  padding-left: 16px;
+}
+
+.how-made-item::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #4c4c4c;
+  border: 1px solid #eceded;
+  margin-right: 8px;
+}
+
 .how-made-item:not(:last-child) {
   margin-bottom: 18px;
 }
