@@ -3,22 +3,20 @@
 }
 
 .products-swiper {
- 
-}
-
-.our-prodacts-container {
-    width: 335px;
-    margin-left: auto;
-    margin-right: auto;
     padding: 32px 52px 32px 53px;
 background: #FFFFFF;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
 }
 
+.our-prodacts-container {
+
+
+}
+
 @media screen and (min-width: 768px) {
     .our-prodacts-container {
-        
+        width: 270px;
     }
 }
 
@@ -61,6 +59,7 @@ background: #FFFFFF;
 
 
 .our-products-item {
+    width: 230px;
     text-align: center;
     
 }
@@ -99,6 +98,7 @@ background: #FFFFFF;
     background: #FAFAFA;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 100px;
+    cursor: pointer;
 }
 
 .our-prodacts-button:hover,
@@ -107,8 +107,8 @@ background: #FFFFFF;
 }
 
 .swiper {
-    max-height: 397px;
-    max-width: 335px;
+  /* max-height: 397px;
+    max-width: 335px; */ 
 }
 
 .swiper-slide {

@@ -38,7 +38,7 @@ const productsSwiper = new Swiper('.products-swiper', {
 
     breakpoints:{
         768:{
-            slidesPerView: 2,
+            slidesPerView: 2.5,
             spaceBetween: 18,
         },
         1200:{
