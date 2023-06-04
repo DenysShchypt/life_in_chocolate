@@ -27,7 +27,7 @@ const reviewSwiper = new Swiper('.reviews-swiper',{
     },
 })
 
-const productsSwiper = new Swiper('.products-swiper', {
+  const productsSwiper = new Swiper('.products-swiper', {
 
    loop: true,
     direction: 'horizontal',
