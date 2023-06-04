@@ -1,9 +1,21 @@
 .our-prodacts-section {
- 
+ margin-bottom: 72px;
+}
+
+@media screen and (min-width: 768px) {
+    .our-prodacts-section {
+        margin-bottom: 168px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .our-prodacts-section {
+        margin-bottom: 128px;
+    }
 }
 
 .products-swiper {
-    width: 335px;
+    width: 339px;
     height: 364px;
     padding: 32px 52px 32px 53px;
    
@@ -15,12 +27,6 @@ background: #FFFFFF;
 .our-prodacts-container {
 
 
-}
-
-@media screen and (min-width: 768px) {
-    .our-prodacts-container {
-        width: 270px;
-    }
 }
 
 .title-our-prodacts {
