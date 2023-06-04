@@ -1,9 +1,12 @@
 .section-subscribe {
-  background-color: #1e1823;
+  background-color: var(--main-secondary-bg-color);
 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
+  padding-top: 62px;
+  padding-bottom: 63px;
 
   background-image: linear-gradient(
       0deg,
@@ -27,6 +30,8 @@
 
 @media only screen and (min-width: 768px) {
   .section-subscribe {
+    padding-top: 72px;
+    padding-bottom: 72px;
     background-image: url(../img/subscribe/subscribe-tab_@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2),
@@ -65,16 +70,6 @@
   }
 }
 
-.section-sub {
-  padding-top: 62px;
-  padding-bottom: 63px;
-}
-@media only screen and (min-width: 768px) {
-  .section-sub {
-    padding-top: 72px;
-    padding-bottom: 72px;
-  }
-}
 .container-subscribe {
   display: flex;
   flex-direction: column;
@@ -96,7 +91,7 @@
 
   margin-bottom: 24px;
 
-  color: #ffffff;
+  color: var(--main-text-secondary-color);
 }
 @media only screen and (min-width: 768px) {
   .title-subscribe {
@@ -111,12 +106,7 @@
 .text-subscribe {
   text-align: center;
 
-  color: #ffffff;
-}
-@media only screen and (min-width: 768px) {
-  .text-subscribe {
-    max-width: 467px;
-  }
+  color: var(--main-text-secondary-color);
 }
 .button-subsribe {
   font-weight: 600;
@@ -125,8 +115,8 @@
 
   width: 128px;
 
-  color: #ffffff;
-  background: #fd9222;
+  color: var(--main-text-secondary-color);
+  background: var(--text-accent-color);
 
   border-radius: 100px;
   border: none;
@@ -144,6 +134,6 @@
 }
 .button-subsribe:hover,
 .button-subsribe:focus {
-  color: #fd9222;
-  background-color: #fcf1e0;
+  color: var(--text-accent-color);
+  background-color: var(--hover-btn);
 }
