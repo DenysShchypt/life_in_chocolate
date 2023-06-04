@@ -7,10 +7,19 @@
 }
 
 .our-prodacts-container {
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 32px 52px 32px 53px;
 background: #FFFFFF;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .our-prodacts-container {
+        
+    }
 }
 
 .title-our-prodacts {
@@ -43,7 +52,7 @@ background: #FFFFFF;
 } */
 
 .title-acent-color {
-    color: #FD9222;
+    color: var(--text-accent-color);
 }
 
 .our-products-list {
@@ -90,6 +99,11 @@ background: #FFFFFF;
     background: #FAFAFA;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 100px;
+}
+
+.our-prodacts-button:hover,
+.our-prodacts-button:focus {
+    background-color: var(--hover-btn);
 }
 
 .swiper {
