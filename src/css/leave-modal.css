@@ -1,0 +1,69 @@
+.modal {
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition-property: opacity, visibility;
+  transition-duration: 250ms;
+  transition-timing-function: var(--main-cubik);
+}
+.modal.active {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: all;
+}
+.js-overlay-modal {
+  z-index: 10;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(17, 17, 17, 0.7);
+
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition-property: opacity, visibility;
+  transition-duration: 250ms;
+  transition-timing-function: var(--main-cubik);
+}
+.js-overlay-modal.active {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: all;
+}
+.review-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.review-close-button {
+}
+
+.review-close-icon {
+}
+.review-modal-title {
+}
+.review-modal-action-text {
+}
+.review-modal-form {
+}
+.review-input {
+}
+.review-number-container {
+}
+.review-country-code {
+}
+.countru-flag {
+}
+.review-comment {
+}
+.review-submit-button {
+}

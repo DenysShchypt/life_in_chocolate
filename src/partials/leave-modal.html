@@ -1,0 +1,50 @@
+<div class="modal review-modal" data-modal="review-modal">
+  <button type="button " class="review-close-button js-modal-close">
+    <svg class="review-close-icon" width="24px" height="24px">
+      <use href="./img/icons.svg#xclose"></use>
+    </svg>
+  </button>
+  <h2 class="review-modal-title">
+    Leave a review about
+    <span class="review-modal-action-text">our chocolate</span>
+  </h2>
+  <form class="review-modal-form">
+    <input
+      name="review-name"
+      type="text"
+      class="review-input"
+      placeholder="Name"
+      pattern="[A-Za-z0-9]"
+      required
+    />
+    <input
+      name="review-email"
+      type="email"
+      class="review-input"
+      placeholder="Enter your email"
+      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+      required
+    />
+    <div class="review-number-container">
+      <input
+        name="review-number"
+        type="tel"
+        class="review-input"
+        placeholder="Phone number"
+        pattern="[0-9]{9}"
+        required
+      />
+      <div class="review-country-code">
+        <svg class="countru-flag" width="24" height="24">
+          <use href="./img/icons.svg#ukraine-flag"></use>
+        </svg>
+        <span>+380</span>
+      </div>
+    </div>
+    <textarea name="review-comment" class="review-comment" required></textarea>
+    <button type="submit" class="js-close-button review-submit-button btn">
+      Send
+    </button>
+  </form>
+</div>
+<div class="js-overlay-modal"></div>
