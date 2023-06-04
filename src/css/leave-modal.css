@@ -49,7 +49,7 @@
 }
 .review-close-button:hover,
 .review-close-button:focus {
-  background-color: #fcf1e0;
+  background-color: var(--hover-btn);
   color: var(--text-accent-color);
 }
 .review-close-icon {
@@ -279,5 +279,5 @@
 .review-submit-button:focus,
 .review-submit-button:hover {
   color: var(--text-accent-color);
-  background-color: #fcf1e0;
+  background-color: var(--hover-btn);
 }
