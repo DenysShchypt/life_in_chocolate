@@ -36,6 +36,13 @@
 
   border-radius: 15px;
 }
+
+@media only screen and (min-width: 768px) {
+  .modal-explore {
+    width: 538px;
+    height: 412px;
+  }
+}
 .bg-image {
   position: relative;
   width: 311px;
@@ -46,6 +53,14 @@
   background-image: url(../img/explore-modal/modal-mob_@1x.jpg);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .bg-image {
+    width: 538px;
+    height: 196px;
+    background-image: url(../img/explore-modal/modal-tab-desk_@1x.jpg);
+  }
 }
 .submit-explore {
   margin-top: 32px;
@@ -63,7 +78,7 @@
   width: 263px;
   height: 45px;
 
-  padding: 14px 18px;
+  padding: 14px 100px 14px 18px;
 
   border-radius: 100px;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
@@ -85,4 +100,10 @@
 }
 .btm-submit-explore::placeholder {
   color: rgba(64, 64, 64, 0.3);
+}
+
+.btm-submit-explore:hover,
+.btm-submit-explore:focus {
+  color: #fd9222;
+  background-color: #fcf1e0;
 }
