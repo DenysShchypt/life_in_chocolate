@@ -14,15 +14,6 @@
     }
 }
 
-.products-swiper {
-    width: 339px;
-    height: 364px;
-    padding: 32px 52px 32px 53px;
-   
-background: #FFFFFF;
-    border: 1px solid  black; /* rgba(17, 17, 17, 0.1);*/
-    border-radius: 15px;
-}
 
 .our-prodacts-container {
 
@@ -69,7 +60,13 @@ background: #FFFFFF;
 
 .our-products-item {
 
+    width: 339px;
+        height: 364px;
+        padding: 32px 52px 32px 53px;
     
+        background: #FFFFFF;
+        border: 1px solid rgba(17, 17, 17, 0.1);
+        border-radius: 15px;
 }
 
 
