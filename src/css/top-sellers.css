@@ -1,4 +1,4 @@
-.top-sellers-container {
+/* .top-sellers-container {
     margin: 0 auto;
     padding-bottom: 72px;
 }
@@ -13,7 +13,7 @@
     .top-sellers-container {
         padding-bottom: 128px;
     }
-}
+} */
 
 .top-sellers-title {
     margin-bottom: 32px;
@@ -31,19 +31,12 @@
 }
 
 .top-sellers-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
     .top-sellers-list {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
+        display: flex;
         gap: 16px;
         margin-bottom: 32px;
     }
@@ -60,10 +53,15 @@
 }
 
 /* Desc only for Mobile */
-.top-sellers-desc-picture {
-    max-width: 306px;
-    margin-top: 20px;
+@media only screen and (max-width: 767px) {
+    .top-sellers-desc-picture {
+        max-width: 306px;
+        margin-top: 20px;
+        margin-bottom: 32px;
+        font-weight: 400;
+    }
 }
+
 
 @media only screen and (min-width: 768px) {
     .top-sellers-desc-picture {
@@ -72,19 +70,22 @@
 }
 
 /* Div for desc and btn */
-.top-sellers-desc-btn {
-    display: flex;
-    align-items: flex-start;
+@media only screen and (min-width: 768px) {
+    .top-sellers-desc-btn {
+        display: flex;
+        align-items: flex-start;
+    }
 }
 
-.top-sellers-desc {
-    text-align: left;
-    display: none;
+@media only screen and (max-width: 767px) {
+    .top-sellers-desc {
+        display: none;
+    }
 }
+
 
 @media only screen and (min-width: 768px) {
     .top-sellers-desc {
-        display: block;
         max-width: 306px;
     }
 }
@@ -97,21 +98,19 @@
 
 .top-sellers-btn {
     width: 120px;
-    height: 41px;
     margin-right: auto;
     margin-left: auto;
     border: none;
     border-radius: 100px;
     font-weight: 600;
-    background: #FD9222;
-    color: #FFFFFF;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background: var(--text-accent-color);
+    color: var(--main-text-secondary-color);
+    transition: background-color var(--main-cubik);
 }
 
 @media only screen and (min-width: 768px) {
     .top-sellers-btn {
         width: 162px;
-        height: 50px;
         margin-right: 0;
         margin-left: auto;
         font-size: 18px;
@@ -121,5 +120,5 @@
 .top-sellers-btn:hover,
 .top-sellers-btn:focus {
     background-color: #FCF1E0;
-    color: #FD9222;
+    color: var(--text-accent-color);
 }
