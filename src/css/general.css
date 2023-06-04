@@ -6,7 +6,6 @@ body {
   background: var(--main-bg-color);
   color: var(--main-text-primary-color);
 }
-
 .title {
   font-size: 20px;
   line-height: 1.2;
@@ -14,7 +13,6 @@ body {
   letter-spacing: -0.03em;
   text-transform: uppercase;
 }
-
 @media only screen and (min-width: 768px) {
   .title {
     font-size: 24px;
