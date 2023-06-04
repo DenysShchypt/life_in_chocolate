@@ -1,5 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
     <defs>
+        <!-- Прапор України -->
+        <symbol id="ukraine-flag" viewBox="0 0 31 32">
+            <path fill="#FFD700" style="fill: var(--color1, #FFD700)" d="M30.559 5.496h-30.326v22.568h30.326v-22.568z">
+            </path>
+            <path fill="#0057B7" style="fill: var(--color2, #0057B7)" d="M0.233 5.496h30.326v11.284h-30.326v-11.284z">
+            </path>
+        </symbol>
+
         <!-- х-закрити вікно -->
         <symbol id="xclose" viewBox="0 0 32 32">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M24 8 8 24M8 8l16 16" />
