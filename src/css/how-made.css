@@ -1,3 +1,19 @@
+.how-made-section {
+  padding-bottom: 66px;
+}
+
+@media only screen and (min-width: 768px) {
+  .how-made-section {
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .how-made-section {
+    padding-bottom: 128px;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .how-made-container {
     padding-left: 77px;
@@ -27,6 +43,15 @@
   color: var(--text-accent-color);
 }
 
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .how-made-thumb {
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 500px;
+  }
+}
+
 @media only screen and (max-width: 1199px) {
   .how-made-thumb {
     margin-bottom: 20px;
@@ -35,10 +60,23 @@
   }
 }
 
-.how-made-video {
-  border-radius: 15px;
-  width: 335px;
-  height: 500px;
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .how-made-video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .how-made-video {
+    border-radius: 15px;
+    width: 335px;
+    height: 500px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -100,7 +138,6 @@
   content: '';
   position: absolute;
   top: 5px;
-
   left: 0;
   width: 8px;
   height: 8px;
