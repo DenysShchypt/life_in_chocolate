@@ -43,6 +43,79 @@
   color: var(--text-accent-color);
 }
 
+.how-made-thumb {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../img/how-made/image_mob-@1x.webp);
+  border-radius: 15px;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-devace-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .how-made-thumb {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(../img/how-made/image_mob-@2x.webp);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .how-made-thumb {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(../img/how-made/image_tab-@1x.webp);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-devace-pixel-ratio: 2),
+  screen and (min-width: 768px) and (min-resolution: 192dpi),
+  screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .how-made-thumb {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(../img/how-made/image_tab-@2x.webp);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .how-made-thumb {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(../img/how-made/image_desc-@1x.webp);
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-devace-pixel-ratio: 2),
+  screen and (min-width: 1200px) and (min-resolution: 192dpi),
+  screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .how-made-thumb {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(../img/how-made/image_desc-@2x.webp);
+  }
+}
+
 @media only screen and (min-width: 320px) and (max-width: 374px) {
   .how-made-thumb {
     width: 100%;
@@ -52,11 +125,48 @@
   }
 }
 
+@media only screen and (min-width: 375px) {
+  .how-made-thumb {
+    height: 500px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .how-made-thumb {
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .how-made-thumb {
+    width: 600px;
+  }
+}
+
 @media only screen and (max-width: 1199px) {
   .how-made-thumb {
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+.video-btn {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.play-btn {
+  fill: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .play-btn {
+    width: 44px;
+    height: 44px;
   }
 }
 

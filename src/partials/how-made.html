@@ -5,8 +5,13 @@
       <span class="how-made-titlepart">made?</span>
     </h2>
     <div class="how-made-box">
-      <div class="how-made-thumb">
-        <iframe
+      <div class="how-made-thumb video">
+        <button type="button" class="video-btn">
+          <svg class="play-btn" width="35" height="35">
+            <use href="../img/icons.svg#play-btn"></use>
+          </svg>
+        </button>
+        <!-- <iframe
           class="how-made-video"
           src="https://www.youtube.com/embed/xPe1jMuX32s"
           style="border: none"
@@ -14,7 +19,7 @@
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        ></iframe>
+        ></iframe> -->
       </div>
       <div class="how-made-description">
         <p class="how-made-proposal">
@@ -44,3 +49,4 @@
     </div>
   </div>
 </section>
+<script type="module" src="../js/video-player.js"></script>
