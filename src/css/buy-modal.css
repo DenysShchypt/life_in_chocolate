@@ -1,0 +1,16 @@
+/**
+  |============================
+  | Modal window "buy now"
+  |============================
+*/
+.modal-buy {
+    width: 311px;
+    height: 994px;
+    background: var(--main);
+    border-color: black;
+    border-radius: 15px;
+}
+
+.modal-buy-close {}
+
+.modal-buy-icon {}
