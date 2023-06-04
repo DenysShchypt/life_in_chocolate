@@ -1,13 +1,25 @@
 .our-prodacts-section {
-   max-height: 453px;
+ 
 }
 
-.title {
+.products-swiper {
+ 
+}
+
+.our-prodacts-container {
+    padding: 32px 52px 32px 53px;
+background: #FFFFFF;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+}
+
+.title-our-prodacts {
     margin-bottom: 32px;
+    font-weight: 600;
 }
 
-    @media only screen and (min-width: 768px) {
-    .title {
+    @media screen and (min-width: 768px) {
+    .title-our-prodacts {
         margin-bottom: 50px; }
 }
 
@@ -46,12 +58,12 @@
 
 
 .card-our-prodacts {
-
+   
 }
 
 .title-card-our-prodacts {
+    margin-bottom: 2px;
     font-weight: 600;
-    margin-top: 8px;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.02em;
@@ -59,7 +71,7 @@
 }
 
 .text-card-our-prodacts {
-    margin-top: 2px;
+    margin-bottom: 18px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.02em;
@@ -70,7 +82,6 @@
     width: 94px;
     height: 33px;
     margin-bottom: 0;
-    margin-top: 18px;
     
     font-weight: 600;
     font-size: 14px;
@@ -91,17 +102,11 @@
 }
 
 .img-products {
+    margin-bottom: 8px;
     margin-left: auto;
    margin-right: auto;
 }
 
-.swiper-pagination {
-  position: static; 
-}
-
-.swiper-pagination-bullet-active {
-width: 28px;
-height: 13px;
-background: #FD9222;
-
+.products-swiper-pagination {
+    margin-top: 20px;
 }
