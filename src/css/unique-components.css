@@ -106,18 +106,8 @@
 .unique-components-flip {
     position: relative;
     
-<<<<<<< Updated upstream
-=======
-    width: 336px;
-    height: 270px;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 375px) {
-.unique-components-flip {
->>>>>>> Stashed changes
     width: 100%;
 }
-    
 
 .unique-components-flip:hover > .unique-components-front
      {
