@@ -180,6 +180,12 @@
     background: transparent;
     transition: background-color 250ms var(--main-cubik);
 }
+@media only screen and (max-width: 363px) {
+   .hero-anchor-link{
+    min-width: 120px;
+    max-width: 159px;
+  }
+}
 
 .hero-btn-scroll-link {
     width: 120px;
