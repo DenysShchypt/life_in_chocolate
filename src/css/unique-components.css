@@ -265,9 +265,18 @@ color: var(--main-text-secondary-color);}
     font-size: 14px;
 }
 
-@media only screen and (max-width: 374px) {
+@media only screen and (max-width: 320px) {
     .unique-components-back-text {
-        font-size: 11px;
+    font-size: 11px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 374px) {
+    .unique-components-back-text {
+    display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
 }
 
