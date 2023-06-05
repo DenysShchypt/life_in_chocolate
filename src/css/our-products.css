@@ -31,11 +31,9 @@
 
 
 .our-products-item {
-
-    width: 339px;
     padding: 32px 52px 32px 53px;
     
-    background: #FFFFFF;
+    background: var(--main-text-secondary-color);
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
 }
@@ -101,5 +99,11 @@
 @media screen and (min-width: 768px) {
     .products-swiper-pagination {
     margin-top: 32px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .products-swiper {
+        width: 735px;
     }
 }
