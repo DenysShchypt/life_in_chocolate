@@ -1,4 +1,4 @@
-<div class="backdrop-buy">
+
     <div class="modal-buy modal" data-modal="buy-modal">
         <button class="modal-buy-close js-modal-close">
             <svg class="modal-buy-icon" width="12" height="12">
@@ -21,29 +21,41 @@
             </li>
         </ul>
         <form class="form-buy" name="modal_form">
-            <label for="modal_name" class="label-buy">Personal information</label>
+            <div class="form-container">
+                <label for="modal_name" class="label-buy">Personal information</label>
                 
-            <input type="text" class="form-field" name="modal_name" id="modal_name" placeholder="Name" autofocus>
-            <input type="text" class="form-field" name="modal_name" id="modal_name" placeholder="Surname">
-            <label for="modal_email" class="label-buy">Email</label>
-            <input type="email" class="form-field" name="modal_email" id="modal_email" placeholder="Enter your email">
-            <label for="modal_number" class="label-buy">Phone number</label>
-            <div class="form-box">
-                <input type="tel" class="form-field" name="modal_number" id="modal_number" placeholder="Phone number">
-                <svg class="flag" width="24" height="18">
-                <use href="../img/icons.svg#ukraine-flag"></use>
-                </svg>
+                <input type="text" class="form-field form-field-name" name="modal_name" id="modal_name" placeholder="Name" autofocus>
+                <input type="text" class="form-field" name="modal_name" id="modal_name" placeholder="Surname">
             </div>
-            <label for="modal_card_number" class="label-buy">Card number</label>
-            <div class="form-box">
-                <input type="number" class="form-card-number" name="modal_card_number" id="modal_card_number" placeholder="Enter card">
-                <svg class="" width="32" height="21">
-                <use href=""></use>
-                </svg>
+            <div class="form-container">
+                <label for="modal_email" class="label-buy">Email</label>
+                <input type="email" class="form-field" name="modal_email" id="modal_email" placeholder="Enter your email">
             </div>
-            <label for="modal_comment" class="label-buy">Comment</label>
-            <textarea name="modal_comment" id="modal_comment" rows="6" placeholder="Enter text"></textarea>
+            <div class="form-container">
+                <label for="modal_number" class="label-buy">Phone number</label>
+                <div class="form-box">
+                    <input type="tel" class="form-field form-field-input" name="modal_number" id="modal_number" placeholder="Phone number">
+                    <div class="container-form-box">
+                        <svg class="flag" width="24" height="18">
+                        <use href="../img/icons.svg#ukraine-flag"></use>
+                        </svg>
+                        <p class="start-tel">+380</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-container">
+                <label for="modal_card_number" class="label-buy">Card number</label>
+                <div class="form-box">
+                    <input type="text" class="form-card-number" name="modal_card_number" id="modal_card_number" placeholder="Enter card">
+                    <svg class="" width="32" height="21">
+                    <use href=""></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="form-container">
+                <label for="modal_comment" class="label-buy">Comment</label>
+                <textarea name="modal_comment" id="modal_comment" rows="6" placeholder="Enter text"></textarea>
+            </div>
             <button class="form-submit" type="submit">Submit</button>
         </form>
     </div>
-</div>
