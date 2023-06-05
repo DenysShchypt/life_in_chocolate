@@ -122,10 +122,14 @@
   background-color: var(--text-accent-color);
 
   border: none;
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media only screen and (min-width: 768px) {
   .btm-submit-explore {
+    display: none;
     right: 40px;
     width: 137px;
     height: 52px;
@@ -162,4 +166,14 @@
   transition-property: opacity, visibility;
   transition-duration: 250ms;
   transition-timing-function: var(--main-cubik);
+}
+
+.btm-tab {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .btm-tab {
+    display: block;
+    bottom: 40px;
+  }
 }
