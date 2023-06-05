@@ -13,7 +13,7 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
+/* Background */
 .hero-container {
     display: flex;
     align-items: flex-end;
@@ -148,60 +148,65 @@
     background: var(--hover-btn);
 }
 
-.hero-btn-anchor {
+.hero-anchor-link:hover,
+.hero-anchor-link:focus {
+    color: var(--text-accent-color);
+    border: 1px solid var(--text-accent-color);
+    background: var(--main-text-secondary-color);
+}
+
+.hero-anchor-link {
     min-width: 159px;
     height: 41px;
     padding: 0;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--main-text-secondary-color);
+
     border: 1px solid var(--main-text-secondary-color);
     border-radius: 100px;
     background: transparent;
     transition: background-color 250ms var(--main-cubik);
 }
-.hero-btn-anchor:hover,
-.hero-btn-anchor:focus {
-    color: var(--text-accent-color);
-    border: 1px solid var(--text-accent-color);
-    background: var(--main-text-secondary-color);
-}
-.hero-btn-anchor:hover .hero-anchor-link,
-.hero-btn-anchor:focus .hero-anchor-link {
-    color: var(--text-accent-color);
-    
-}
-.hero-btn-scroll:hover .hero-scroll,
-.hero-btn-scroll:focus .hero-scroll {
-    fill: var(--main-text-secondary-color);
-    background: var(--text-accent-color);
-}
-.hero-anchor-link {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.21;
-    color: var(--main-text-secondary-color);
-}
 
-.hero-btn-scroll {
-    min-width: 159px;
+.hero-btn-scroll-link {
+    width: 120px;
     height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    
     margin-top: 32px;
     font-weight: 500;
-    border: none;
+    color: var(--main-text-secondary-color);
+    border-radius: 100px;
     background: transparent;
     transition: background-color 250ms var(--main-cubik);
 }
 @media only screen and (min-width: 768px) {
-.hero-btn-scroll{
+.hero-btn-scroll-link{
+    width: 130px;
     margin-left: auto;
   }
 }
-.hero-btn-scroll:hover,
-.hero-btn-scroll:focus {
+.hero-btn-scroll-link:hover,
+.hero-btn-scroll-link:focus {
+    color: var(--text-accent-color);
     background: var(--main-text-secondary-color);
     border-radius: 100px;
 }
-.hero-btn-scroll:hover .hero-btn-scroll-link,
-.hero-btn-scroll:focus .hero-btn-scroll-link {
-    color: var(--text-accent-color);
+.hero-btn-scroll-link:hover .hero-scroll,
+.hero-btn-scroll-link:focus .hero-scroll {
+    fill: var(--main-text-secondary-color);
+    background: var(--text-accent-color);
 }
 
 .hero-scroll {
@@ -223,9 +228,5 @@
     justify-content: start;
 }
 .hero-btn-scroll-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    color: var(--main-text-secondary-color);
+    
 }
