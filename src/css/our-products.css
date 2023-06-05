@@ -4,13 +4,13 @@
 
 @media screen and (min-width: 768px) {
     .our-prodacts-section {
-    margin-bottom: 168px;
+        margin-bottom: 168px;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .our-prodacts-section {
-    margin-bottom: 128px;
+        margin-bottom: 128px;
     }
 }
 
@@ -21,7 +21,7 @@
 
     @media screen and (min-width: 768px) {
     .title-our-prodacts {
-    margin-bottom: 50px; }
+        margin-bottom: 50px; }
 }
 
 
@@ -40,10 +40,15 @@
     border-radius: 15px;
 }
 
+@media screen and (min-width: 768px) {
+    .our-products-item { 
+        padding: 32px 20px;
+    }
+}
+
 
 .title-card-our-prodacts {
     margin-bottom: 2px;
-
     font-weight: 600;
     font-size: 18px;
     line-height: 1.33;
@@ -53,7 +58,6 @@
 
 .text-card-our-prodacts {
     margin-bottom: 18px;
-
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.02em;
@@ -87,9 +91,15 @@
 .img-products {
     margin-bottom: 8px;
     margin-left: auto;
-    margin-right: auto;
+   margin-right: auto;
 }
 
 .products-swiper-pagination {
     margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .products-swiper-pagination {
+    margin-top: 32px;
+    }
 }
