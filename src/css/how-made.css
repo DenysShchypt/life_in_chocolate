@@ -1,5 +1,5 @@
 .how-made-section {
-  padding-bottom: 66px;
+  padding-bottom: 72px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -50,9 +50,9 @@
       rgba(0, 0, 0, 0.4)
     ),
     url(../img/how-made/image_mob-@1x.webp);
+  position: relative;
   border-radius: 15px;
   background-size: cover;
-  position: relative;
 }
 
 @media (min-devace-pixel-ratio: 2),
@@ -118,10 +118,10 @@
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
   .how-made-thumb {
-    width: 100%;
     position: relative;
-    padding-bottom: 56.25%;
+    width: 100%;
     height: 500px;
+    padding-bottom: 56.25%;
   }
 }
 
@@ -137,7 +137,7 @@
 }
 @media only screen and (min-width: 1200px) {
   .how-made-thumb {
-    width: 600px;
+    min-width: 600px;
   }
 }
 
@@ -150,13 +150,14 @@
 }
 
 .video-btn {
-  border: none;
-  cursor: pointer;
-  background-color: transparent;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
 }
 
 .play-btn {
@@ -172,20 +173,20 @@
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
   .how-made-video {
-    width: 100%;
-    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
     border-radius: 15px;
   }
 }
 
 @media only screen and (min-width: 375px) {
   .how-made-video {
-    border-radius: 15px;
     width: 335px;
     height: 500px;
+    border-radius: 15px;
   }
 }
 
@@ -205,20 +206,18 @@
 
 .how-made-description {
   padding: 20px 14px;
-  background-color: var(--main-text-secondary-color);
   border-radius: 15px;
+  background-color: var(--main-text-secondary-color);
 }
 
 @media only screen and (min-width: 768px) {
   .how-made-description {
-    width: 614px;
     padding: 32px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .how-made-description {
-    width: 516px;
     padding: 32px;
   }
 }
@@ -235,10 +234,6 @@
   }
 }
 
-.how-made-list {
-  letter-spacing: -0.02em;
-}
-
 .how-made-item {
   position: relative;
   padding-left: 16px;
@@ -251,10 +246,9 @@
   left: 0;
   width: 8px;
   height: 8px;
+  border: 1px solid #eceded;
   border-radius: 50%;
   background-color: #4c4c4c;
-  border: 1px solid #eceded;
-  margin-right: 8px;
 }
 
 .how-made-item:not(:last-child) {
