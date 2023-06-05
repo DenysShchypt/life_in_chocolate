@@ -263,11 +263,7 @@
     line-height: 122%;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .review-comment {
-    margin-bottom: 14px;
-  }
-}
+
 .review-submit-button {
   border: none;
   border-radius: 100px;
