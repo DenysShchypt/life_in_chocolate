@@ -104,11 +104,6 @@
   color: var(--main-text-primary-color);
 }
 .review-desc {
-  /* font-size: 14px; */
-  line-height: 129%;
-
-  letter-spacing: -0.02em;
-
   text-align: center;
 
   color: rgba(17, 17, 17, 0.7);
