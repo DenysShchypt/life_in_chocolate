@@ -26,8 +26,3 @@ const reviewSwiper = new Swiper('.reviews-swiper',{
         sensitivity: 0.4,
     },
 })
-
-    pagination: {
-        el: '.swiper-pagination',
-    },
-})
