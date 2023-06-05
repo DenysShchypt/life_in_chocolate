@@ -51,7 +51,7 @@
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.02em;
-    color: #111111;
+    color: var(--main-text-primary-color);
 }
 
 .text-card-our-prodacts {
@@ -71,7 +71,7 @@
     font-size: 14px;
     line-height: 1.2;
     
-    background: #FAFAFA;
+    background: var(--main-bg-color);
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 100px;
     cursor: pointer;
