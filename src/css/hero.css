@@ -209,6 +209,12 @@
     fill: var(--text-accent-color);
     background: var(--main-text-secondary-color);
 }
+@media only screen and (min-width: 768px) {
+.hero-scroll{
+    width: 38px;
+    height: 38px;
+  }
+}
 .btn {
     justify-content: center;
     align-items: center;
