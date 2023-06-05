@@ -101,7 +101,9 @@
     font-weight: 600;
     background: var(--text-accent-color);
     color: var(--main-text-secondary-color);
-    transition: background-color var(--main-cubik);
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--main-cubik);
 }
 
 @media only screen and (min-width: 768px) {
