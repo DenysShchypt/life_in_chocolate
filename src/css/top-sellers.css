@@ -1,0 +1,119 @@
+.top-sellers-section {
+    padding-bottom: 72px;
+}
+
+@media only screen and (min-width: 768px) {
+    .top-sellers-section {
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .top-sellers-section {
+        padding-bottom: 128px;
+    }
+}
+
+.top-sellers-title {
+    margin-bottom: 32px;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 768px) {
+    .top-sellers-title {
+        margin-bottom: 50px;
+    }
+}
+
+.top-sellers-title-orange {
+    color: var(--text-accent-color);
+}
+
+.top-sellers-list {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .top-sellers-list {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 32px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .top-sellers-item {
+        display: none;
+    }
+}
+
+.top-sellers-img {
+    border-radius: 15px;
+}
+
+/* Desc only for Mobile */
+@media only screen and (max-width: 767px) {
+    .top-sellers-desc-picture {
+        max-width: 306px;
+        margin-top: 20px;
+        margin-bottom: 32px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .top-sellers-desc-picture {
+        display: none;
+    }
+}
+
+/* Div for desc and btn */
+@media only screen and (min-width: 768px) {
+    .top-sellers-desc-btn {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .top-sellers-desc {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .top-sellers-desc {
+        max-width: 306px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .top-sellers-desc {
+        max-width: 407px;
+    }
+}
+
+.top-sellers-btn {
+    width: 120px;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    border-radius: 100px;
+    font-weight: 600;
+    background: var(--text-accent-color);
+    color: var(--main-text-secondary-color);
+    transition: background-color var(--main-cubik);
+}
+
+@media only screen and (min-width: 768px) {
+    .top-sellers-btn {
+        width: 162px;
+        margin-right: 0;
+        font-size: 18px;
+    }
+}
+
+.top-sellers-btn:hover,
+.top-sellers-btn:focus {
+    background-color: var(--hover-btn);
+    color: var(--text-accent-color);
+}
