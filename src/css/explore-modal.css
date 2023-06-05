@@ -6,15 +6,32 @@
   cursor: pointer;
 
   top: 14px;
-  right: 15px;
+  right: 14px;
 
-  background-color: rgba(255, 255, 255, 0);
+  background-color: transparent;
+  stroke: var(--main-text-secondary-color);
   border: none;
 }
+
+@media only screen and (min-width: 768px) {
+  .close-explore {
+    top: 24px;
+    right: 24px;
+  }
+}
+
 .icon-close-explore {
+  stroke-width: 2px;
+  color: currentColor;
   width: 24px;
   height: 24px;
-  stroke: var(--main-text-secondary-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .icon-close-explore {
+    width: 28px;
+    height: 28px;
+  }
 }
 .modal-explore {
   position: absolute;
