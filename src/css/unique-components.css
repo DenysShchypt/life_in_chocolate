@@ -90,6 +90,12 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
+.unique-components-item {
+    width: 336px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .unique-components-item:nth-child(2) {
     order: 2;
   }
