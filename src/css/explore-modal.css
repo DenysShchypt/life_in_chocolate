@@ -1,12 +1,3 @@
-.backdrop-explore {
-  position: fixed;
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  height: 100%;
-  background-color: teal;
-}
 .close-explore {
   display: flex;
   align-items: center;
@@ -150,4 +141,25 @@
 .btm-submit-explore:focus {
   color: var(--text-accent-color);
   background-color: var(--hover-btn);
+}
+
+.js-overlay-explore {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: var(--overlay-zidx);
+
+  visibility: hidden;
+  opacity: 1;
+  pointer-events: none;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--overlay-color);
+
+  transition-property: opacity, visibility;
+  transition-duration: 250ms;
+  transition-timing-function: var(--main-cubik);
 }

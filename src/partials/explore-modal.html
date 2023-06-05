@@ -1,8 +1,8 @@
-<div class="backdrop-explore">
-  <div class="modal-explore modal" data-modal="modal-explore">
+<div class="js-overlay-explore">
+  <div class="modal modal-explore" data-modal="modal-explore">
     <div class="bg-image"></div>
     <div class="submit-explore">
-      <button class="close-explore" js-modal-close>
+      <button type="button" class="close-explore js-modal-close">
         <svg class="icon-close-explore" width="12" height="12">
           <use href="../img/icons.svg#xclose"></use>
         </svg>
@@ -11,15 +11,18 @@
         Explore our <br />
         <span class="new-chokolad">new chocolate</span> first!
       </h2>
-      <!-- <div class="input-explore"> -->
-      <input
-        class="input-explore"
-        type="text"
-        pattern="email"
-        placeholder="Enter your email"
-      />
-      <button class="btm-submit-explore" type="submit">Submit</button>
-      <!-- </div> -->
+      <form class="form-explore">
+        <input
+          class="input-explore"
+          type="email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          placeholder="Enter your email"
+          required
+        />
+        <button class="btm-submit-explore js-close-button" type="submit">
+          Submit
+        </button>
+      </form>
     </div>
   </div>
 </div>
