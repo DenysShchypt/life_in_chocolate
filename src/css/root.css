@@ -7,7 +7,9 @@
   --main-text-primary-color: #111111;
   --main-text-secondary-color: #ffffff;
   --text-accent-color: #fd9222;
+  --hover-btn: #fcf1e0;
   --overlay-color: rgba(46, 47, 66, 0.4);
+  --modal-placeholder-modal:rgba(64, 64, 64, 0.3);
 
   /* z-indexes */
   --header-zidx: 10;
