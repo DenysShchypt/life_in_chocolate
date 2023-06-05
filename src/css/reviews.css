@@ -71,12 +71,26 @@
   padding: 18px;
   padding-top: 56px;
 
-  background-color: #ffffff;
+  background-color: var(--main-text-secondary-color);
 
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 15px;
 
   box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+}
+@media screen and (min-width: 768px) {
+  .review-data {
+    padding: 16px;
+
+    padding-top: 56px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .review-data {
+    padding: 24px;
+
+    padding-top: 56px;
+  }
 }
 .review-name {
   margin-bottom: 24px;
@@ -90,7 +104,7 @@
   color: var(--main-text-primary-color);
 }
 .review-desc {
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 129%;
 
   letter-spacing: -0.02em;
