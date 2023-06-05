@@ -205,24 +205,25 @@
 }
 
 .how-made-description {
-  padding: 20px 14px;
+  padding: 20px 14px 20px 14px;
   border-radius: 15px;
   background-color: var(--main-text-secondary-color);
 }
 
 @media only screen and (min-width: 768px) {
   .how-made-description {
-    padding: 32px;
+    padding: 32px 102px 32px 32px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .how-made-description {
-    padding: 32px;
+    padding: 32px 59px 32px 32px;
   }
 }
 
 .how-made-proposal {
+  max-width: 340px;
   margin-bottom: 20px;
   font-weight: 600;
   font-size: 18px;
