@@ -65,6 +65,7 @@
 .footer-sm-box {
     display: flex;
     justify-content: space-between;
+    align-items: start;
 }
 
 @media only screen and (min-width: 768px) {
@@ -91,6 +92,7 @@
 }
 
 .footer-adr-link {
+    display: block;
     font-style: normal;
 
     color: var(--main-text-secondary-color);
@@ -114,6 +116,7 @@
 }
 
 .footer-socials-link {
+    display: block;
     fill: var(--main-secondary-bg-color);
     color: var(--main-text-secondary-color);
 
@@ -159,6 +162,7 @@
 }
 
 .footer-nav-link {
+    display: block;
     font-weight: 500;
     line-height: 1.14;
 
