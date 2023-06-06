@@ -1,0 +1,61 @@
+
+    <div class="modal-buy modal" data-modal="buy-modal">
+        <button class="modal-buy-close js-modal-close">
+            <svg class="modal-buy-icon" width="12" height="12">
+            <use href="../img/icons.svg#xclose"></use>
+            </svg>
+        </button>
+        <h2 class="modal-title"><span class="modal-title-buy">bUY</span> nOW</h2>
+        <ul class="modal-order list">
+            <li class="modal-order-list">
+                <img class="modal-img" src="../img/modal-img/kisspng-chocolate-bar-kinder-chocolate-white-chocolate-chocolate-nuts-5b0ef41cbe25b2 2.jpg" alt="piecec of dark chocolate">
+                <button class="modal-list-btn" type="button">100 g</button>
+            </li>
+            <li class="modal-order-list">
+                <img class="modal-img" src="../img/modal-img/kisspng-chocolate-bar-praline-kinder-chocolate-bonbon-milk-5ae8399b302ae1 1.jpg" alt="piecec of dark and white chocolate">
+                <button class="modal-list-btn" type="button">200 g</button>
+            </li>
+            <li class="modal-order-list">
+                <img class="modal-img" src="../img/modal-img/transparent-chocolate-bar-dark-chocolate-png-free-image-download5dc7cabee44135 1.jpg" alt="whole chocolate">
+                <button class="modal-list-btn" type="button">300 g</button>
+            </li>
+        </ul>
+        <form class="form-buy" name="modal_form">
+            <div class="form-container">
+                <label for="modal_name" class="label-buy">Personal information</label>
+                
+                <input type="text" class="form-field form-field-name" name="modal_name" id="modal_name" placeholder="Name" autofocus>
+                <input type="text" class="form-field" name="modal_name" id="modal_name" placeholder="Surname">
+            </div>
+            <div class="form-container">
+                <label for="modal_email" class="label-buy">Email</label>
+                <input type="email" class="form-field" name="modal_email" id="modal_email" placeholder="Enter your email">
+            </div>
+            <div class="form-container">
+                <label for="modal_number" class="label-buy">Phone number</label>
+                <div class="form-box">
+                    <input type="tel" class="form-field form-field-input" name="modal_number" id="modal_number" placeholder="Phone number">
+                    <div class="container-form-box">
+                        <svg class="flag" width="24" height="18">
+                        <use href="../img/icons.svg#ukraine-flag"></use>
+                        </svg>
+                        <p class="start-tel">+380</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-container">
+                <label for="modal_card_number" class="label-buy">Card number</label>
+                <div class="form-box">
+                    <input type="text" class="form-card-number" name="modal_card_number" id="modal_card_number" placeholder="Enter card">
+                    <svg class="" width="32" height="21">
+                    <use href=""></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="form-container">
+                <label for="modal_comment" class="label-buy">Comment</label>
+                <textarea name="modal_comment" id="modal_comment" rows="6" placeholder="Enter text"></textarea>
+            </div>
+            <button class="form-submit" type="submit">Submit</button>
+        </form>
+    </div>
