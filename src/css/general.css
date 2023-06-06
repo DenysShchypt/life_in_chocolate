@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: var(--maim-text);
   font-size: 14px;
@@ -6,6 +9,7 @@ body {
   background: var(--main-bg-color);
   color: var(--main-text-primary-color);
 }
+
 .title {
   font-size: 20px;
   line-height: 1.2;
