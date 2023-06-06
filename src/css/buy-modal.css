@@ -1,3 +1,7 @@
+.form-field-hidden {
+    display: none;
+}
+
 .buy-modal {
     position: fixed;
     top: 50%;
@@ -75,11 +79,24 @@
 .title-axent {
     color: var(--text-accent-color);
 }
+@media screen and (min-width: 768px) {
+    .buy-modal-list {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+    }
+}
+
 
 .buy-modal-item-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+@media only screen and (min-width: 768px) {
+.buy-modal-item-btn{
+    flex-direction: column;
+  }
 }
 
 
@@ -89,22 +106,41 @@
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
 }
-
-.buy-modal-item:not(:last-of-type) {
+@media only screen and (max-width: 767px) {
+.buy-modal-item:not(:last-of-type){
     margin-bottom: 8px;
+  }
 }
 
-.buy-modal-item:last-of-type {
+@media only screen and (min-width: 768px) {
+.buy-modal-item{
+    margin-bottom: 0;
+  }
+}
+
+.buy-modal-item-container {
     margin-bottom: 32px;
 }
-
-.buy-modal-img {}
-
 
 .buy-modal-btn {
     background: var(--main-bg-color);
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 100px;
+}
+@media only screen and (min-width: 768px) {
+.buy-modal-btn{
+    padding: 8px 28px;
+  }
+}
+@media screen and (min-width: 768px) {
+    .buy-modal-item {
+        padding: 24px 20px 18px 20px;
+    }
+}
+@media only screen and (min-width: 768px) {
+.buy-img-product{
+    margin-bottom: 14px;
+  }
 }
 
 
@@ -139,7 +175,6 @@
 .buy-form-input {
     display: block;
     width: 100%;
-    margin-bottom: 18px;
     padding: 14px 18px;
     border: 1.5px solid rgba(17, 17, 17, 0.05);
     outline-color: transparent;
@@ -153,6 +188,24 @@
     transition-property: outline-color;
     transition-duration: 250ms;
     transition-timing-function: var(--main-cubik);
+}
+.buy-form-container {
+    margin-bottom: 18px;
+}
+@media only screen and (max-width: 767px) {
+   .buy-form-first-name{
+    margin-bottom: 8px;
+  }
+}
+@media only screen and (min-width: 768px) {
+.buy-form-name>.buy-form-input{
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+.buy-form-name{
+    margin-bottom: 18px;
+  }
 }
 
 .buy-form-card>.buy-form-input {
