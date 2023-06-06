@@ -27,12 +27,12 @@
       rgba(17, 17, 17, 0.4) 100%
     ),
     image-set(
-      url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xmob.webp) 1x,
-      url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@2xmob.webp) 2x,
-      url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xmob.jpg) 1x,
-      url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@2xmob.jpg) 2x
+      url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xmob.webp) 1x,
+      url(../img/hero-bg/chocolate-covered-cocoa-powder-1@2xmob.webp) 2x,
+      url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xmob.jpg) 1x,
+      url(../img/hero-bg/chocolate-covered-cocoa-powder-1@2xmob.jpg) 2x
     ),
-    url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xmob.jpg);
+    url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xmob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -48,12 +48,12 @@
         rgba(17, 17, 17, 0.4) 100%
       ),
       image-set(
-        url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xmob.webp) 1x,
-        url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@2xmob.webp) 2x,
-        url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xmob.jpg) 1x,
-        url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@2xmob.jpg) 2x
+        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xmob.webp) 1x,
+        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@2xmob.webp) 2x,
+        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xmob.jpg) 1x,
+        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@2xmob.jpg) 2x
       ),
-      url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xmob.jpg);
+      url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xmob.jpg);
   }
 }
 @media only screen and (min-width: 768px) {
@@ -68,12 +68,12 @@
         rgba(17, 17, 17, 0.4) 100%
       ),
       image-set(
-        url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xtab.webp) 1x,
-        url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@2xtab.webp) 2x,
-        url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xtab.jpg) 1x,
-        url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@2xtab.jpg) 2x
+        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xtab.webp) 1x,
+        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@2xtab.webp) 2x,
+        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xtab.jpg) 1x,
+        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@2xtab.jpg) 2x
       ),
-      url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xtab.jpg);
+      url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xtab.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -85,12 +85,12 @@
           rgba(17, 17, 17, 0.4) 100%
         ),
         image-set(
-          url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xtab.webp) 1x,
-          url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@2xtab.webp) 2x,
-          url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xtab.jpg) 1x,
-          url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@2xtab.jpg) 2x
+          url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xtab.webp) 1x,
+          url(../img/hero-bg/chocolate-covered-cocoa-powder-1@2xtab.webp) 2x,
+          url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xtab.jpg) 1x,
+          url(../img/hero-bg/chocolate-covered-cocoa-powder-1@2xtab.jpg) 2x
         ),
-        url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xtab.jpg);
+        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xtab.jpg);
     }
   }
 }
@@ -105,12 +105,12 @@
         rgba(17, 17, 17, 0.4) 100%
       ),
       image-set(
-        url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xdesc.webp) 1x,
-        url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@2xdesc.webp) 2x,
-        url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xdesc.jpg) 1x,
-        url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@2xdesc.jpg) 2x
+        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.webp) 1x,
+        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@2xdesc.webp) 2x,
+        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg) 1x,
+        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@2xdesc.jpg) 2x
       ),
-      url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xdesc.jpg);
+      url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -122,12 +122,12 @@
           rgba(17, 17, 17, 0.4) 100%
         ),
         image-set(
-          url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xdesc.webp) 1x,
-          url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@2xdesc.webp) 2x,
-          url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xdesc.jpg) 1x,
-          url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@2xdesc.jpg) 2x
+          url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.webp) 1x,
+          url(../img/hero-bg/chocolate-covered-cocoa-powder-1@2xdesc.webp) 2x,
+          url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg) 1x,
+          url(../img/hero-bg/chocolate-covered-cocoa-powder-1@2xdesc.jpg) 2x
         ),
-        url(./img/hero-bg/chocolate-covered-cocoa-powder\ 1@1xdesc.jpg);
+        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg);
     }
   }
 }
