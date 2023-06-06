@@ -1,0 +1,141 @@
+.section-subscribe {
+  background-color: var(--main-secondary-bg-color);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  max-width: 1200px;
+
+  padding-top: 62px;
+  padding-bottom: 63px;
+
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../img/subscribe/subscribe-mob_@1x.jpg);
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-subscribe {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../img/subscribe/subscribe-mob_@2x.jpg);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .section-subscribe {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-image: url(../img/subscribe/subscribe-tab_@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-subscribe {
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2)
+        ),
+        url(../img/subscribe/subscribe-tab_@2x.jpg);
+    }
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .section-subscribe {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../img/subscribe/subscribe-desk_@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-subscribe {
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2)
+        ),
+        url(../img/subscribe/subscribe-desk_@2x.jpg);
+    }
+  }
+}
+
+.container-subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.content-subscribe {
+  max-width: 326px;
+}
+@media only screen and (min-width: 768px) {
+  .content-subscribe {
+    max-width: 467px;
+  }
+}
+
+.title-subscribe {
+  font-weight: 600;
+
+  margin-bottom: 24px;
+
+  color: var(--main-text-secondary-color);
+}
+@media only screen and (min-width: 768px) {
+  .title-subscribe {
+    font-size: 24px;
+    line-height: 1.17;
+    max-width: 378px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.text-subscribe {
+  text-align: center;
+
+  color: var(--main-text-secondary-color);
+}
+.button-subsribe {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+
+  width: 128px;
+
+  color: var(--main-text-secondary-color);
+  background: var(--text-accent-color);
+
+  border-radius: 100px;
+  border: none;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media only screen and (min-width: 768px) {
+  .button-subsribe {
+    font-size: 18px;
+    line-height: 1.22;
+    width: 172px;
+  }
+}
+.button-subsribe:hover,
+.button-subsribe:focus {
+  color: var(--text-accent-color);
+  background-color: var(--hover-btn);
+}
