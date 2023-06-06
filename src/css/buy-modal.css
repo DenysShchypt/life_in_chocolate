@@ -4,6 +4,7 @@
     left: 50%;
     width: 95%;
     max-width: 311px;
+    height: 100%;
     padding: 32px 24px;
     overflow-y: auto;
     border-radius: 15px;
@@ -15,6 +16,7 @@
     .buy-modal {
         width: 609px;
         max-width: none;
+
         padding: 48px;
     }
 }
