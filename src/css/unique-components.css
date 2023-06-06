@@ -136,8 +136,8 @@ height: 100%;
 padding: 27px;
 
 transform: rotateY(0deg);
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-transition-duration: 500ms;
+transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
+transition-duration: 1000ms;
 transition-property: transform, opacity;
 
 border: 1px solid transparent;
@@ -209,8 +209,9 @@ color: var(--main-text-secondary-color);}
 
     transform: rotateY(-180deg);
     transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
-    transition-duration: 0.5s;
+    transition-duration: 1000ms;
     transition-property: transform, opacity;
+    cursor: pointer;
 
     background: var(--main-text-secondary-color);
     border-radius: 15px;

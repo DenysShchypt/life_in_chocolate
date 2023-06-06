@@ -1,20 +1,19 @@
 .advantages {
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: var(--main-secondary-bg-color);
   color: var(--main-text-secondary-color);
 }
-.advantages-container {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 @media only screen and (min-width: 768px) {
-  .advantages-container {
+  .advantages {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 }
 @media only screen and (min-width: 1200px) {
-  .advantages-container {
-    padding: 50px 50px;
+  .advantages {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
