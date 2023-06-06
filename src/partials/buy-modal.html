@@ -1,61 +1,247 @@
-
-    <div class="modal-buy modal" data-modal="buy-modal">
-        <button class="modal-buy-close js-modal-close">
-            <svg class="modal-buy-icon" width="12" height="12">
-            <use href="../img/icons.svg#xclose"></use>
-            </svg>
-        </button>
-        <h2 class="modal-title"><span class="modal-title-buy">bUY</span> nOW</h2>
-        <ul class="modal-order list">
-            <li class="modal-order-list">
-                <img class="modal-img" src="../img/modal-img/kisspng-chocolate-bar-kinder-chocolate-white-chocolate-chocolate-nuts-5b0ef41cbe25b2 2.jpg" alt="piecec of dark chocolate">
-                <button class="modal-list-btn" type="button">100 g</button>
-            </li>
-            <li class="modal-order-list">
-                <img class="modal-img" src="../img/modal-img/kisspng-chocolate-bar-praline-kinder-chocolate-bonbon-milk-5ae8399b302ae1 1.jpg" alt="piecec of dark and white chocolate">
-                <button class="modal-list-btn" type="button">200 g</button>
-            </li>
-            <li class="modal-order-list">
-                <img class="modal-img" src="../img/modal-img/transparent-chocolate-bar-dark-chocolate-png-free-image-download5dc7cabee44135 1.jpg" alt="whole chocolate">
-                <button class="modal-list-btn" type="button">300 g</button>
-            </li>
-        </ul>
-        <form class="form-buy" name="modal_form">
-            <div class="form-container">
-                <label for="modal_name" class="label-buy">Personal information</label>
-                
-                <input type="text" class="form-field form-field-name" name="modal_name" id="modal_name" placeholder="Name" autofocus>
-                <input type="text" class="form-field" name="modal_name" id="modal_name" placeholder="Surname">
-            </div>
-            <div class="form-container">
-                <label for="modal_email" class="label-buy">Email</label>
-                <input type="email" class="form-field" name="modal_email" id="modal_email" placeholder="Enter your email">
-            </div>
-            <div class="form-container">
-                <label for="modal_number" class="label-buy">Phone number</label>
-                <div class="form-box">
-                    <input type="tel" class="form-field form-field-input" name="modal_number" id="modal_number" placeholder="Phone number">
-                    <div class="container-form-box">
-                        <svg class="flag" width="24" height="18">
-                        <use href="../img/icons.svg#ukraine-flag"></use>
-                        </svg>
-                        <p class="start-tel">+380</p>
-                    </div>
-                </div>
-            </div>
-            <div class="form-container">
-                <label for="modal_card_number" class="label-buy">Card number</label>
-                <div class="form-box">
-                    <input type="text" class="form-card-number" name="modal_card_number" id="modal_card_number" placeholder="Enter card">
-                    <svg class="" width="32" height="21">
-                    <use href=""></use>
-                    </svg>
-                </div>
-            </div>
-            <div class="form-container">
-                <label for="modal_comment" class="label-buy">Comment</label>
-                <textarea name="modal_comment" id="modal_comment" rows="6" placeholder="Enter text"></textarea>
-            </div>
-            <button class="form-submit" type="submit">Submit</button>
-        </form>
+<div class="modal buy-modal" data-modal="buy-modal">
+  <button type="button " class="buy-close-button js-modal-close">
+    <svg class="buy-close-icon" width="24px" height="24px">
+      <use href="./img/icons.svg#xclose"></use>
+    </svg>
+  </button>
+  <h2 class="buy-modal-title title">
+    <span class="title-axent">buy </span>now
+  </h2>
+  <ul class="buy-modal-list list">
+    <li class="buy-modal-item">
+      <div class="buy-modal-item-btn">
+        <picture>
+          <!-- Tablet&Desktop -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/modal-buy/choco-1tab@1x.webp 1x,
+              ./img/modal-buy/choco-1tab@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/modal-buy/choco-1tab@1x.png 1x,
+              ./img/modal-buy/choco-1tab@2x.png 2x
+            "
+            type="image/png"
+          />
+          <!-- Mobile -->
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/modal-buy/choco-1mob@1x.webp 1x,
+              ./img/modal-buy/choco-1mob@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/modal-buy/choco-1mob@1x.png 1x,
+              ./img/modal-buy/choco-1mob@2x.png 2x
+            "
+            type="image/png"
+          />
+          <img
+            sizes="(min-width: 768px) 120px, (min-width: 375px) 84px, 100vw"
+            class="buy-modal-img img"
+            src="./img/modal-buy/choco-1tab@1x.png"
+            alt=""
+            widht="120"
+            height="107"
+            loading="lazy"
+          />
+        </picture>
+        <button class="buy-modal-btn btn" type="button">100 g</button>
+      </div>
+    </li>
+    <li class="buy-modal-item">
+      <div class="buy-modal-item-btn">
+        <picture>
+          <!-- Tablet&Desktop -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/modal-buy/choco-2tab@1x.webp 1x,
+              ./img/modal-buy/choco-2tab@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/modal-buy/choco-2tab@1x.png 1x,
+              ./img/modal-buy/choco-2tab@2x.png 2x
+            "
+            type="image/png"
+          />
+          <!-- Mobile -->
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/modal-buy/choco-2mob@1x.webp 1x,
+              ./img/modal-buy/choco-2mob@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/modal-buy/choco-2mob@1x.png 1x,
+              ./img/modal-buy/choco-2mob@2x.png 2x
+            "
+            type="image/png"
+          />
+          <img
+            sizes="(min-width: 768px) 120px, (min-width: 375px) 84px, 100vw"
+            class="buy-modal-img img"
+            src="./img/modal-buy/choco-2tab@1x.png"
+            alt=""
+            widht="120"
+            height="107"
+            loading="lazy"
+          />
+        </picture>
+        <button class="buy-modal-btn btn" type="button">200 g</button>
+      </div>
+    </li>
+    <li class="buy-modal-item">
+      <div class="buy-modal-item-btn">
+        <picture>
+          <!-- Tablet&Desktop -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/modal-buy/choco-3tab@1x.webp 1x,
+              ./img/modal-buy/choco-3tab@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/modal-buy/choco-3tab@1x.png 1x,
+              ./img/modal-buy/choco-3tab@2x.png 2x
+            "
+            type="image/png"
+          />
+          <!-- Mobile -->
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/modal-buy/choco-3mob@1x.webp 1x,
+              ./img/modal-buy/choco-3mob@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/modal-buy/choco-3mob@1x.png 1x,
+              ./img/modal-buy/choco-3mob@2x.png 2x
+            "
+            type="image/png"
+          />
+          <img
+            sizes="(min-width: 768px) 120px, (min-width: 375px) 84px, 100vw"
+            class="buy-modal-img img"
+            src="./img/modal-buy/choco-3tab@1x.png"
+            alt=""
+            widht="120"
+            height="107"
+            loading="lazy"
+          />
+        </picture>
+        <button class="buy-modal-btn btn" type="button">300 g</button>
+      </div>
+    </li>
+  </ul>
+  <form class="buy-modal-form">
+    <!-- Personal information -->
+    <label class="buy-modal-form-field" for="name_form"
+      >Personal information</label
+    >
+    <div class="buy-form-name">
+      <input
+        name="buy-form-name"
+        type="text"
+        id="name_form"
+        class="buy-form-input"
+        placeholder="Name"
+        required
+      />
+      <input
+        name="buy-form-name"
+        type="text"
+        id="name_form"
+        class="buy-form-input"
+        placeholder="Surname"
+        required
+      />
     </div>
+
+    <!-- Email -->
+    <label class="buy-modal-form-field" for="email_form">Email</label>
+    <input
+      name="buy-form-email"
+      type="email"
+      id="email_form"
+      class="buy-form-input"
+      placeholder="Enter your email"
+      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+      required
+    />
+    <!-- Phone number -->
+    <div class="buy-form-number-container">
+      <label class="buy-modal-form-field" for="number_form">Phone number</label>
+      <input
+        name="buy-form-number"
+        type="tel"
+        id="number_form"
+        class="buy-form-input"
+        placeholder="Phone number"
+        pattern="[0-9]{9}"
+        required
+      />
+      <div class="buy-form-country-code">
+        <svg class="buy-form-country-flag">
+          <use href="./img/icons.svg#ukraine-flag"></use>
+        </svg>
+        <span class="buy-form-code-text">+380</span>
+      </div>
+    </div>
+    <!-- Card number-->
+
+    <label class="buy-modal-form-field" for="card_form">Card number</label>
+
+    <div class="buy-form-card">
+      <input
+        name="buy-form-name"
+        type="number"
+        id="card_form"
+        class="buy-form-input"
+        placeholder="Enter card"
+        required
+      />
+      <svg class="buy-form-mastercard" width="32px" height="21px">
+        <use href="./img/icons.svg#mastercard"></use>
+      </svg>
+    </div>
+
+    <label class="buy-modal-form-field" for="comment_form">Comment</label>
+    <textarea
+      name="buy-form-comment"
+      class="buy-form-comment"
+      id="comment_form"
+      required
+      placeholder="Enter text"
+    ></textarea>
+    <button type="submit" class="js-close-button buy-form-submit-button btn">
+      submit
+    </button>
+  </form>
+</div>
+<div class="js-overlay-modal"></div>

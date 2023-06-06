@@ -1,211 +1,344 @@
-/**
-  |============================
-  | Modal window "buy now"
-  |============================
-*/
-/* Overlay */
-.backdrop-buy {
-    /* position: relative; */
-    top: 0;
-    left: 0;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 100%;
-    height: 100%;
-
-    background-color: var(--overlay-color);
-    z-index: var(--overlay-zidx);
-    opacity: 1;
-    visibility: visible;
-    pointer-events: initial;
-
-    /* display: none; */
-}
-.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
-/* Modal container */
-.modal-buy {
+.buy-modal {
     position: fixed;
     top: 50%;
     left: 50%;
-
-    width: 311px;
-    max-height: 994px;
+    width: 95%;
+    max-width: 311px;
+    height: 100%;
     padding: 32px 24px;
-    background: var(--main-bg-color);
+    overflow-y: auto;
     border-radius: 15px;
+    background-color: var(--main-bg-color);
     transform: translate(-50%, -50%);
-    z-index: var(--modal-zidx);
 }
-/* Btn close modal */
-.modal-buy-close {
+
+@media screen and (min-width: 768px) {
+    .buy-modal {
+        width: 609px;
+        max-width: none;
+
+        padding: 48px;
+    }
+}
+
+.buy-close-button {
     position: absolute;
-    top: 18px;
-    left: 273px;
-
+    top: 14px;
+    right: 14px;
     display: flex;
-    align-items: center;
     justify-content: center;
-
-    width: 24px;
-    height: 24px;
-    padding: 0;
+    align-items: center;
+    padding: 6px;
     border-radius: 50%;
-    border: transparent;
-    background-color: var(--main-text-secondary-color);
+    border: none;
+    background-color: transparent;
+    color: var(--main-text-primary-color);
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--main-cubik);
 }
-.modal-buy-close:hover {
+
+@media screen and (min-width: 768px) {
+    .buy-close-button {
+        top: 24px;
+        right: 24px;
+    }
+}
+
+.buy-close-button:hover,
+.buy-close-button:focus {
     background-color: var(--hover-btn);
-}
-/* Icon modal btn close */
-.modal-buy-icon {
-    stroke: #111111;
-}
-.modal-buy-close:hover .modal-buy-icon {
-    stroke: var(--text-accent-color)
-}
-/* Modal-list order */
-.modal-title {
-    margin-bottom: 32px;
-
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
-    
-    text-align: center;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-}
-
-/* Modal title */
-.modal-title-buy {
     color: var(--text-accent-color);
 }
-/* Modal list */
-.modal-order {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+
+.buy-close-icon {
+    stroke-width: 2px;
+    stroke: currentColor;
+    transition-property: stroke;
+    transition-duration: 250ms;
+    transition-timing-function: var(--main-cubik);
 }
 
-.modal-order-list {
+@media screen and (min-width: 768px) {
+    .buy-close-icon {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+.buy-modal-title {
+    margin-bottom: 32px;
+    font-weight: 600;
+    color: var(--main-text-primary-color);
+}
+
+.title-axent {
+    color: var(--text-accent-color);
+}
+
+.buy-modal-item-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
-    padding-left: 16px;
-    padding-right: 16px;
 
+.buy-modal-item {
+    padding: 8px 16px;
     background: var(--main-text-secondary-color);
-    box-sizing: border-box;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
 }
-/* Modal img */
-.modal-img {
-    width: 84px;
-    height: 69px;
+
+.buy-modal-item:not(:last-of-type) {
+    margin-bottom: 8px;
 }
 
-.modal-list-btn {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.buy-modal-item:last-of-type {
+    margin-bottom: 32px;
+}
 
-    width: 73px;
-    height: 29px;
+.buy-modal-img {}
+
+
+.buy-modal-btn {
     background: var(--main-bg-color);
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 100px;
+}
 
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.21;
-    
-        color: var(--main-text-primary-color);
+
+.buy-modal-form {
+    width: 100%;
 }
-/**
-  |============================
-  | Modal form
-  |============================
-*/
-.form-buy {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 18px;
-}
-.form-container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    width: 263px;
-}
-.label-buy {
+
+.buy-modal-form-field {
+    display: block;
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.02em;
-    
-    color: #000000;
-}
-.form-box {
-    width: 263px;
-}
-.form-field {
-    width: 100%;
-    height: 45px;
-    border: 1.5px solid rgba(17, 17, 17, 0.05);
-    border-radius: 13px;
-}
-.container-form-box {
-    position: absolute;
-    top: 55%;
-    left: 13px;
-    transform: translateY();
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-}
-.start-tel {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.21;
-    letter-spacing: -0.02em;
-    
     color: var(--main-text-primary-color);
 }
-.start-tel::after {
-    content: ' ';
-    position: absolute;
-    top: 6px;
-    /* right: -20px; */
-    width: 25px;
-    border: 1px solid rgba(64, 64, 64, 0.3);;
-    transform: rotate(90deg);
+
+@media screen and (min-width: 768px) {
+    .buy-modal-form-field {
+        font-size: 14px;
+        line-height: 1.29;
+    }
 }
-.form-field-input {
-    padding-left: 106px;
+
+@media screen and (min-width: 768px) {
+    .buy-form-name {
+        display: flex;
+        gap: 21px;
+    }
 }
-.form-field-name {
-    margin-bottom: 14px;
-}
-::placeholder {
+
+.buy-form-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 14px 18px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    outline-color: transparent;
+    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+    border-radius: 8px;
     font-size: 14px;
     line-height: 1.21;
     letter-spacing: -0.02em;
-    
-    color: rgba(64, 64, 64, 0.3);
+    color: var(--main-text-primary-color);
+    background-color: var(--main-bg-color);
+    transition-property: outline-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--main-cubik);
+}
+
+.buy-form-card>.buy-form-input {
+    padding-right: 44px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .buy-form-card>.buy-form-input {
+        padding-right: 68px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .buy-form-input {
+        padding: 22px 24px;
+        font-size: 18px;
+        line-height: 1.22;
+    }
+}
+
+.buy-form-number-container {
+    position: relative;
+}
+
+.buy-form-number-container>.buy-form-input {
+    padding-left: 106px;
+}
+
+@media screen and (min-width: 768px) {
+    .buy-form-number-container>.buy-form-input {
+        padding-left: 177px;
+    }
+}
+
+.buy-form-country-code {
+    position: absolute;
+    top: 65%;
+    left: 18px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 74px;
+    box-shadow: 1.5px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .buy-form-country-code {
+        left: 24px;
+        gap: 18px;
+        width: 125px;
+        box-shadow: 2.72246px 0px 0px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .buy-form-country-code {
+        top: 63%;
+    }
+}
+
+.buy-form-country-flag {
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .buy-form-country-flag {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+.buy-form-card {
+    position: relative;
+}
+
+
+.buy-form-mastercard {
+    position: absolute;
+    top: 56%;
+    right: 12px;
+    transform: translateY(-50%);
+    background: #FAFAFA;
+    border: 1px solid #FAFAFA;
+    border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+    .buy-form-mastercard {
+        width: 44px;
+        height: 30px;
+        right: 24px;
+    }
+}
+
+.buy-form-code-text {
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+    .buy-form-code-text {
+        font-size: 18px;
+        line-height: 122%;
+    }
+}
+
+.buy-form-comment {
+    resize: none;
+    width: 100%;
+    min-height: 91px;
+    margin-bottom: 18px;
+    padding: 14px 18px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    outline-color: transparent;
+    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    color: var(--main-text-primary-color);
+    background-color: var(--main-bg-color);
+    transition-property: outline-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--main-cubik);
+}
+
+@media screen and (min-width: 768px) {
+    .buy-form-comment {
+        min-height: 137px;
+        padding: 22px 24px;
+        font-size: 18px;
+        line-height: 1.22;
+    }
+}
+
+.buy-form-input:focus-visible,
+.buy-form-comment:focus-visible {
+    outline-color: var(--text-accent-color);
+}
+
+.buy-form-input::placeholder,
+.buy-form-comment::placeholder {
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    color: var(--modal-placeholder-modal);
+}
+
+@media screen and (min-width: 768px) {
+
+    .buy-form-input::placeholder,
+    .buy-form-comment::placeholder {
+        font-size: 18px;
+        line-height: 1.22;
+    }
+}
+
+.buy-form-submit-button {
+    border: none;
+    border-radius: 100px;
+    font-size: 14px;
+    line-height: 1.21;
+    font-weight: 600;
+    color: var(--main-text-secondary-color);
+    background-color: var(--text-accent-color);
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--main-cubik);
+}
+
+.buy-form-submit-button:focus,
+.buy-form-submit-button:hover {
+    color: var(--text-accent-color);
+    background-color: var(--hover-btn);
+}
+
+
+.buy-modal-btn:focus,
+.buy-modal-btn:hover {
+    color: var(--text-accent-color);
+    background-color: var(--hover-btn);
 }
