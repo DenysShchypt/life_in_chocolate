@@ -41,8 +41,15 @@
     }
 }
 
+@media only screen and (max-width: 767px) {
+    .top-sellers-item:first-of-type {
+        margin-bottom: 32px;
+    }
+}
+
+
 @media only screen and (max-width: 1199px) {
-    .top-sellers-item {
+    .top-sellers-item:last-of-type {
         display: none;
     }
 }
@@ -56,7 +63,6 @@
     .top-sellers-desc-picture {
         max-width: 306px;
         margin-top: 20px;
-        margin-bottom: 32px;
     }
 }
 
