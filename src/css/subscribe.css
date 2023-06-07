@@ -45,7 +45,7 @@
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
         ),
-        url(./img/subscribe/Subcribedesk.jpg);
+        url(../img/subscribe/Subcribedesk.jpg);
     }
   }
 }
@@ -59,7 +59,7 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url(./img/subscribe/Subcribedesk.jpg);
+      url(../img/subscribe/Subcribedesk.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -70,7 +70,7 @@
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
         ),
-        url(./img/subscribe/Subcribedesk@2x.jpg);
+        url(../img/subscribe/Subcribedesk@2x.jpg);
     }
   }
 }
