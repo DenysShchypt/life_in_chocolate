@@ -140,17 +140,17 @@
   }
 }
 
+.link-promo:hover .header-social-icons,
+.link-promo:focus .header-social-icons {
+  stroke: var(--text-accent-color);
+}
+
 .header-social-icons {
   width: 24px;
   height: 24px;
   fill: none;
   stroke: var(--main-text-primary-color);
   transition: stroke 250ms var(--main-cubik);
-}
-
-.header-social-icons:hover,
-.header-social-icons:focus {
-  stroke: var(--text-accent-color);
 }
 
 /* Modal */
