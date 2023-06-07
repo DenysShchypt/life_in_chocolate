@@ -26,6 +26,8 @@
 }
 
 .review-close-button {
+  cursor: pointer;
+
   position: absolute;
   top: 14px;
   right: 14px;
@@ -163,9 +165,17 @@
 }
 .review-number-container {
   position: relative;
+
+  margin-bottom: 14px;
+}
+@media screen and (min-width: 768px) {
+  .review-number-container {
+    margin-bottom: 18px;
+  }
 }
 .review-number-container > .review-input {
   padding-left: 106px;
+  margin-bottom: 0;
 }
 @media screen and (min-width: 768px) {
   .review-number-container > .review-input {
@@ -282,6 +292,8 @@
 }
 .review-submit-button:focus,
 .review-submit-button:hover {
+  cursor: pointer;
+
   color: var(--text-accent-color);
   background-color: var(--hover-btn);
 }
