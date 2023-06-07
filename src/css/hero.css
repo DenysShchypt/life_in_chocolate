@@ -133,8 +133,8 @@
         image-set(
           url(/img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.webp) 1x,
           url(/img/hero-bg/chocolate-covered-cocoa-powder-1@2xdesc.webp) 2x,
-          url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg) 1x,
-          url(/img/hero-bg/chocolate-covered-cocoa-powder-1@2xdesc.jpg) 2x
+          /* url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg) 1x, */
+            url(/img/hero-bg/chocolate-covered-cocoa-powder-1@2xdesc.jpg) 2x
         ),
         url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg);
     }
