@@ -289,7 +289,8 @@
   transition: stroke 250ms var(--main-cubik);
 }
 
-.menu-social-icons:hover {
+.menu-social-icons:hover,
+.menu-social-icons:focus {
   stroke: var(--text-accent-color);
 }
 
