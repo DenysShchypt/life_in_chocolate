@@ -15,7 +15,7 @@
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ),
-    url(./img/subscribe/Subcribemob.jpg);
+    url(../img/subscribe/subcribemob.jpg);
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -26,7 +26,7 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url(./img/subscribe/Subcribemob@2x.jpg);
+      url(../img/subscribe/subcribemob@2x.jpg);
   }
 }
 
@@ -34,7 +34,7 @@
   .section-subscribe {
     padding-top: 72px;
     padding-bottom: 72px;
-    background-image: url(./img/subscribe/Subcribetab.jpg);
+    background-image: url(../img/subscribe/subcribetab.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -45,7 +45,11 @@
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
         ),
+
         url(../img/subscribe/Subcribedesk.jpg);
+
+      
+
     }
   }
 }
@@ -59,7 +63,9 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
+
       url(../img/subscribe/Subcribedesk.jpg);
+
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -70,7 +76,9 @@
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
         ),
+
         url(../img/subscribe/Subcribedesk@2x.jpg);
+
     }
   }
 }
