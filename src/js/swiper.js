@@ -19,12 +19,18 @@ const reviewSwiper = new Swiper('.reviews-swiper',{
 
     pagination: {
         el: '.reviews-swiper-pagination',
+        clicable: true,
         
 
     },
     mousewheel:{
         sensitivity: 0.4,
     },
+     keyboard: {
+    enabled: true,
+         onlyInViewport: true,
+         pageUpDown: false,
+  },
 })
 
   const productsSwiper = new Swiper('.products-swiper', {
@@ -55,5 +61,10 @@ const reviewSwiper = new Swiper('.reviews-swiper',{
     },
     mousewheel:{
         sensitivity: 0.4,
-    },
+      },
+      keyboard: {
+    enabled: true,
+         onlyInViewport: true,
+         pageUpDown: false,
+  },
 })

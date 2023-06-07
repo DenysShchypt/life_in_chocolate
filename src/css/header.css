@@ -251,6 +251,11 @@
   border: 1px;
 }
 
+@media only screen and (min-width: 768px){
+    .active-link::after {
+    left: 85px;
+}
+}
 .menu-social-list {
   display: flex;
   gap: 20px;
