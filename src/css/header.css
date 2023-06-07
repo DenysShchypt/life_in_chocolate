@@ -3,6 +3,8 @@
   top: 0;
   left: 0;
 
+  z-index: var(--header-zidx);
+
   width: 100%;
 
   padding-top: 20px;
