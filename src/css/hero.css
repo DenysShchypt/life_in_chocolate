@@ -17,8 +17,8 @@
   padding-bottom: 72px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  .hero{
-  padding-bottom: 50px;
+  .hero {
+    padding-bottom: 50px;
   }
 }
 /* Background */
@@ -116,10 +116,10 @@
       image-set(
         url(/img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.webp) 1x,
         url(/img/hero-bg/chocolate-covered-cocoa-powder-1@2xdesc.webp) 2x,
-        url(/img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg) 1x,
+        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg) 1x,
         url(/img/hero-bg/chocolate-covered-cocoa-powder-1@2xdesc.jpg) 2x
       ),
-      url(/img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg);
+      url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -133,10 +133,10 @@
         image-set(
           url(/img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.webp) 1x,
           url(/img/hero-bg/chocolate-covered-cocoa-powder-1@2xdesc.webp) 2x,
-          url(/img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg) 1x,
+          url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg) 1x,
           url(/img/hero-bg/chocolate-covered-cocoa-powder-1@2xdesc.jpg) 2x
         ),
-        url(/img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg);
+        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg);
     }
   }
 }
@@ -204,7 +204,6 @@
   color: var(--text-accent-color);
   background-color: var(--main-text-secondary-color);
   border: 1px solid var(--text-accent-color);
-  
 }
 
 .hero-anchor-link {
