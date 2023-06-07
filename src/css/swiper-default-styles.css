@@ -2,6 +2,8 @@
   position: static;
 }
 .swiper-pagination-bullet {
+  cursor: pointer;
+
   width: 13px;
   height: 13px;
 
