@@ -290,7 +290,8 @@
 }
 
 .menu-social-icons:hover,
-.menu-social-icons:focus {
+.menu-social-icons:focus
+ {
   stroke: var(--text-accent-color);
 }
 
