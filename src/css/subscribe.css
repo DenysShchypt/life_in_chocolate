@@ -15,7 +15,7 @@
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ),
-    url(../img/subscribe/subscribe-mob_@1x.jpg);
+    url(./img/subscribe/Subcribemob.jpg);
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -26,7 +26,7 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url(../img/subscribe/subscribe-mob_@2x.jpg);
+      url(./img/subscribe/Subcribemob@2x.jpg);
   }
 }
 
@@ -34,7 +34,7 @@
   .section-subscribe {
     padding-top: 72px;
     padding-bottom: 72px;
-    background-image: url(../img/subscribe/subscribe-tab_@1x.jpg);
+    background-image: url(./img/subscribe/Subcribetab.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -45,18 +45,21 @@
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
         ),
-        url(../img/subscribe/subscribe-tab_@2x.jpg);
+        url(./img/subscribe/Subcribedesk.jpg);
     }
   }
 }
 @media only screen and (min-width: 1200px) {
   .section-subscribe {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: linear-gradient(
         0deg,
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url(../img/subscribe/subscribe-desk_@1x.jpg);
+      url(./img/subscribe/Subcribedesk.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -67,7 +70,7 @@
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
         ),
-        url(../img/subscribe/subscribe-desk_@2x.jpg);
+        url(./img/subscribe/Subcribedesk@2x.jpg);
     }
   }
 }
