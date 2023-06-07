@@ -59,7 +59,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../img/explore-modal/modal-mob_@1x.jpg);
+  background-image: url(../img/explore-modal/tetiana-bykovets-mob@.jpg);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -67,7 +67,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .bg-image {
-    background-image: url(./img/explore-modal/modal-mob_@2x.jpg);
+    background-image: url(../img/explore-modal/tetiana-bykovets-mob@2x.jpg);
   }
 }
 
@@ -75,13 +75,13 @@
   .bg-image {
     width: 538px;
     height: 196px;
-    background-image: url(./img/explore-modal/modal-tab-desk_@1x.jpg);
+    background-image: url(../img/explore-modal/tetiana-bykovets-tab.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .bg-image {
-      background-image: url(./img/explore-modal/modal-tab-desk_@2x.jpg);
+      background-image: url(../img/explore-modal/tetiana-bykovets-tab@2x.jpg);
     }
   }
 }

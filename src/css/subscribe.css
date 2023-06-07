@@ -46,6 +46,7 @@
           rgba(0, 0, 0, 0.2)
         ),
         url(../img/subscribe/subcribedesk-bg.jpg);
+
     }
   }
 }
@@ -60,6 +61,7 @@
         rgba(0, 0, 0, 0.2)
       ),
       url(../img/subscribe/subcribedesk-bg.jpg);
+
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -71,6 +73,7 @@
           rgba(0, 0, 0, 0.2)
         ),
         url(../img/subscribe/subcribedesk-bg@2x.jpg);
+
     }
   }
 }

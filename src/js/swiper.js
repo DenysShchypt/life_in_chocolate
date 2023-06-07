@@ -19,7 +19,7 @@ const reviewSwiper = new Swiper('.reviews-swiper',{
 
     pagination: {
         el: '.reviews-swiper-pagination',
-        clicable: true,
+        clickable: true,
         
 
     },
