@@ -202,7 +202,9 @@
 .hero-anchor-link:hover,
 .hero-anchor-link:focus {
   color: var(--text-accent-color);
+  background-color: var(--main-text-secondary-color);
   border: 1px solid var(--text-accent-color);
+  
 }
 
 .hero-anchor-link {
