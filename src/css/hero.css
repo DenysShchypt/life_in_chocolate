@@ -45,22 +45,7 @@
   background-size: cover;
   border-radius: 30px;
 }
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero-container {
-    background-image: linear-gradient(
-        180deg,
-        rgba(17, 17, 17, 0) 0%,
-        rgba(17, 17, 17, 0.4) 100%
-      ),
-      image-set(
-        url(/img/hero-bg/chocolate-covered-cocoa-powder-1@1xmob.jpg) 1x,
-        url(/img/hero-bg/chocolate-covered-cocoa-powder-1@2xmob.jpg) 2x
-      ),
-      url(/img/hero-bg/chocolate-covered-cocoa-powder-1@1xmob.jpg);
-  }
-}
+
 @media only screen and (min-width: 768px) {
   .hero-container {
     max-width: 704px;
@@ -78,22 +63,6 @@
       ),
       url(/img/hero-bg/chocolate-covered-cocoa-powder-1@1xtab.jpg);
   }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-container {
-      background-image: linear-gradient(
-          180deg,
-          rgba(17, 17, 17, 0) 0%,
-          rgba(17, 17, 17, 0.4) 100%
-        ),
-        image-set(
-          url(/img/hero-bg/chocolate-covered-cocoa-powder-1@1xtab.jpg) 1x,
-          url(/img/hero-bg/chocolate-covered-cocoa-powder-1@2xtab.jpg) 2x
-        ),
-        url(/img/hero-bg/chocolate-covered-cocoa-powder-1@1xtab.jpg);
-    }
-  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -110,22 +79,6 @@
         url(/img/hero-bg/chocolate-covered-cocoa-powder-1@2xdesc.jpg) 2x
       ),
       url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg);
-  }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-container {
-      background-image: linear-gradient(
-          180deg,
-          rgba(17, 17, 17, 0) 0%,
-          rgba(17, 17, 17, 0.4) 100%
-        ),
-        image-set(
-          url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg) 1x,
-          url(/img/hero-bg/chocolate-covered-cocoa-powder-1@2xdesc.jpg) 2x
-        ),
-        url(../img/hero-bg/chocolate-covered-cocoa-powder-1@1xdesc.jpg);
-    }
   }
 }
 
