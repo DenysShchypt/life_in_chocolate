@@ -13,6 +13,10 @@
   border: none;
 }
 
+.close-explore:hover .icon-close-explore, 
+.close-explore:focus .icon-close-explore {
+  stroke: var(--main-bg-color);}
+
 @media only screen and (min-width: 768px) {
   .close-explore {
     top: 24px;
@@ -146,11 +150,23 @@
 
 @media only screen and (min-width: 768px) {
   .btm-submit-explore {
-    display: none;
+    
     right: 40px;
     width: 137px;
     height: 52px;
     padding: 17px 32px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sbm {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sbs {
+    display: none;
   }
 }
 
