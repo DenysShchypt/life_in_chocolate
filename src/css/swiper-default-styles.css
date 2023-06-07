@@ -4,6 +4,10 @@
 .swiper-pagination-bullet {
   width: 13px;
   height: 13px;
+
+  transition-property: background-color, width, opacity;
+  transition-duration: 250ms;
+  transition-timing-function: var(--main-cubik);
 }
 .swiper-pagination-bullet-active {
   width: 28px;
